@@ -1002,7 +1002,7 @@ hr{
 .gray{ color:#AAAAAA }
 
 
-.silver{ color:#f4f4f4 }
+.silver{ color:#DDDDDD }
 
 
 .white{ color:#FFFFFF }
@@ -1059,7 +1059,7 @@ hr{
 .bg-gray{ background-color:#AAAAAA }
 
 
-.bg-silver{ background-color:#f4f4f4 }
+.bg-silver{ background-color:#DDDDDD }
 
 
 .bg-white{ background-color:#FFFFFF }
@@ -1104,7 +1104,7 @@ hr{
 .bg-maroon{ background-color:#85144B }
 
 
-h1, h2, p, li{ font-size:1.125rem; line-height:1.6 }
+h1, h2, p, li{ font-size:1.125rem; line-height:1.7 }
 
 
 a{ color:#111111 }
