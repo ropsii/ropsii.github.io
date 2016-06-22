@@ -1,4 +1,5 @@
 /node_modules
 /src
+/sketch
 package.json
 postcss.config.js
