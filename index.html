@@ -9,20 +9,13 @@
         body {
             margin: 0;
             padding: 1em;
-            font-size: 17px;
-            line-height: 1.6;
+            font-size: 15px;
+            line-height: 1.5;
             font-family: georgia, serif;
         }
         header {
             border-bottom: 1px solid;
             padding-bottom: 8px;
-        }
-        @media (min-width: 640px) {
-            header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
         }
         h1 {
             font-size: 17px;
@@ -40,6 +33,15 @@
         .less-important {
             font-size: 14px;
             color: slategray;
+            font-family: sans-serif;
+        }
+        @media (min-width: 640px) {
+            body, h1 { font-size: 17px }
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
         }
     </style>
 </head>
