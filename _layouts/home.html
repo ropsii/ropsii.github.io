@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="mw7 center pa3 pv5-m">
+
+        <header class="mb4">
+            <h1 class="f4 normal ma0">
+                <a rel="author" href="{{ "/" | relative_url }}">
+                    <img src="{% link /assets/small-donkey.svg %}" alt="donkey">
+                </a>
+            </h1>
+        </header>
+
+        <h1 class="f3 b mt4 mb3">{{ site.title | escape }}</h1>
+
+        <div class="bb bw2 pb4 mb4">
+            <div class="measure-wide">
+                <p class="mb3">I help things run smoothly for the users. My expertise is in design and production of web applications — for more than a decade I’ve been helping various software products to be more usable, genuine and meaningful.</p>
+                <p class="mb3">Currently I’m in command of product design at <a href="https://semaphoreci.com">Semaphore</a>, an app that helps software developers ship their work faster and more reliable.</p>
+                <p class="mb3">You can write me through <a href="mailto:perovic.petar@gmail.com">Email</a> or <a href="https://twitter.com/ropsii">Twitter</a>.</p>
+            </div>
+        </div>
+
+        <div>
+            {%- if site.posts.size > 0 -%}
+                <h2 class="f3 mb3">Writing</h2>
+
+                {%- for post in site.posts -%}
+                <a href="{{ post.url | relative_url }}" class="link near-black db mv4 dim">
+                    <h3 class="f4 b ma0">{{ post.title | escape }}</h3>
+                    <p class="mb0">{{ post.excerpt }}</p>
+                </a>
+                {%- endfor -%}
+
+            {%- endif -%}
+        </div>
+    </div>
+
+  </body>
+
+</html>

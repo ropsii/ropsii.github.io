@@ -1,0 +1,91 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src:  url('AcuminPro-Regular.woff2') format('woff2'),
+          url('AcuminPro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src:  url('AcuminPro-Italic.woff2') format('woff2'),
+          url('AcuminPro-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src:  url('AcuminPro-Bold.woff2') format('woff2'),
+          url('AcuminPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: $sans-serif;
+    line-height: $line-height-copy;
+    font-size: $font-size-4;
+    color: $near-black;
+    min-height: 100%;
+}
+
+a {
+    color: $link-color;
+}
+
+a:focus {
+    outline: 4px solid $gold;
+}
+
+hr {
+    border: none;
+    position: relative;
+    height: 2em;
+    margin: 0;
+}
+
+hr::before {
+    content: '* * *';
+    width: 60px;
+    height: 15px;
+    position: absolute;
+    left: calc(50% - 30px);
+    top: 10px;
+    text-align: center;
+}
+
+/* Eliminate top margin to avoid some repetitive work
+https://csswizardry.com/2012/06/single-direction-margin-declarations/
+----------------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.post-content p,
+.post-content hr {
+    max-width: $measure-wide;
+}
