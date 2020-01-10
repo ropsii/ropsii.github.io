@@ -25,10 +25,9 @@
                     {%- endif -%}
 
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                        {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
                         {{ page.date | date: date_format }}
                     </time>
-                    • {{ page.readingtime }} min. read
                 </p>
             </header>
 
