@@ -4,7 +4,7 @@ title:  "My 10x developer"
 author: "Petar Perovic"
 date:   2019-12-14 10:10:00 +0100
 readingtime: "2"
-excerpt: "Designers’ favorite coworkers"
+excerpt: "Product design as collective effort"
 categories: product design ux process
 ---
 Whenever I worked for engineering driven organizations, which was a lot, design was slightly undervalued. Even though the organization acknowledge the importance of design, in practice we always struggle to achieve excellence in something that is unavoidably a second class citizen. This has been especially true for organizations that ship continuously, where tiny improvements go live daily, with “better-done-than-perfect” mentality.
