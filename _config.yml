@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Petar Perovic · Designer of software products
+title: Petar Perovic, product designer
 email: perovic.petar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Senior User Interface designer from Porto, Portugal, Europe.
