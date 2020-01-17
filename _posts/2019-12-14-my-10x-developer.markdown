@@ -7,9 +7,7 @@ readingtime: "2"
 excerpt: "Product design as collective effort"
 categories: product design ux process
 ---
-Whenever I worked for engineering driven organizations, which was a lot, design was slightly undervalued. Even though the organization acknowledge the importance of design, in practice we always struggle to achieve excellence in something that is unavoidably a second class citizen. This has been especially true for organizations that ship continuously, where tiny improvements go live daily, with “better-done-than-perfect” mentality.
-
-This made me appreciate the type of developers that have a certain jest for design and product, that I could partner with and rely on to get the most out of design under these specific circumstances.
+Whenever I worked for engineering driven organizations, design was slightly undervalued. Even though the importance of design is acknowledged, we always struggle to achieve excellence in something that inevitably becomes a second class citizen. This has been especially true for organizations that ship continuously, where tiny improvements go live daily, with “better-done-than-perfect” mentality. This made me appreciate the type of developers that have a certain jest for design and product, that I could partner with and rely on to get the most out of design under these specific circumstances.
 
 Most of the developers I worked with, however, are in a different group. They conform to the very distinct lines of responsibility — designers design, and following their input developers develop. Writing software is already difficult enough, so keeping these two activities distinctly apart and providing them with clear guidelines seemingly makes sense.
 
