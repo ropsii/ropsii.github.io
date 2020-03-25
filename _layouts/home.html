@@ -8,29 +8,28 @@
     <div class="mw7 center pa3 pv5-m">
 
         <header class="mb3 mb4-m">
-            <h1 class="f4 normal ma0">
+            <h1 class="f3 normal ma0">
                 <a rel="author" href="{{ "/" | relative_url }}">
-                    <img src="{% link /assets/small-donkey.svg %}" alt="donkey">
+                    <img src="{% link /assets/small-donkey.svg %}" alt="donkey" width="70">
                 </a>
             </h1>
         </header>
 
-        <h1 class="f3 lh-title b mb3">{{ site.title | escape }}</h1>
+        <h2 class="f3 f2-m lh-title b mb3">{{ site.title | escape }}</h2>
 
         <div class="bb bw2 pb4 mb4">
             <div class="measure-wide">
-                <p class="mb0">I help things run smoothly for the users. My expertise is in design and production of web applications. Currently in command of product design at <a href="https://semaphoreci.com">Semaphore</a>. Get to me through <a href="https://twitter.com/ropsii">Twitter</a>.</p>
+                <p class="f4 f3-m mb0">I help things run smoothly for the users. My expertise is in design and production of web applications. Currently in command of product design at <a href="https://semaphoreci.com">Semaphore</a>. Reach me via <a href="https://twitter.com/ropsii">Twitter</a>.</p>
             </div>
         </div>
 
         <div>
             {%- if site.posts.size > 0 -%}
-                <h2 class="f3 mb3">Writing</h2>
 
                 {%- for post in site.posts -%}
-                <a href="{{ post.url | relative_url }}" class="link near-black db mv4 dim">
-                    <h3 class="f4 b ma0">{{ post.title | escape }}</h3>
-                    <p class="mb0">{{ post.excerpt }}</p>
+                <a href="{{ post.url | relative_url }}" class="link near-black db mv4">
+                    <h3 class="f4 f3-m b ma0">{{ post.title | escape }}</h3>
+                    <p class="f4 f3-m mb0">{{ post.excerpt }}</p>
                 </a>
                 {%- endfor -%}
 

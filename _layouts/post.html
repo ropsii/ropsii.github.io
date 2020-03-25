@@ -10,7 +10,7 @@
         <header class="mb3 mb4-m">
             <h1 class="f4 normal ma0">
                 <a rel="author" href="{{ "/" | relative_url }}">
-                    <img src="{% link /assets/small-donkey.svg %}" alt="donkey">
+                    <img src="{% link /assets/small-donkey.svg %}" alt="donkey" width="70">
                 </a>
             </h1>
         </header>
@@ -18,7 +18,7 @@
         <article class="mb5" itemscope itemtype="http://schema.org/BlogPosting">
 
             <header class="mb4 pt3 pt4-m bt bw2">
-                <h1 class="f3 lh-title mb2" itemprop="name headline">{{ page.title | escape }}</h1>
+                <h1 class="f3 f2-m lh-title mb1" itemprop="name headline">{{ page.title | escape }}</h1>
                 <p class="f5 mb3">
                     {%- if page.author -%}
                     <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span> • </span>
@@ -31,11 +31,11 @@
                 </p>
             </header>
 
-            <div class="post-content" itemprop="articleBody">
+            <div class="f4 f3-m post-content" itemprop="articleBody">
                 {{ content }}
             </div>
 
-            <footer class="mt4 pt4 bt bw2">
+            <footer class="mt4 pt4">
                 <div class="flex-m items-center justify-between">
                     <div class="mb4 mb0-m">
                         <p class="f5 mb0">To comment, mention <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.</p>
