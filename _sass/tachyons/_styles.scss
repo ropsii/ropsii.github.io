@@ -46,33 +46,27 @@ body {
     line-height: $line-height-copy;
     font-size: $font-size-4;
     color: $near-black;
+    background-color: #fff3db;
     min-height: 100%;
 }
 
 a {
-    color: $link-color;
+    color: $near-black;
 }
 
 a:focus {
-    outline: 4px solid $gold;
+    outline: 3px dotted $blue;
 }
 
 hr {
-    border: none;
-    position: relative;
-    height: 2em;
-    margin: 0;
+    height: 2px;
+    width: 60px;
+    border: 0;
+    background: $near-black;
+    margin: 2rem auto !important;
 }
 
-hr::before {
-    content: '* * *';
-    width: 60px;
-    height: 15px;
-    position: absolute;
-    left: calc(50% - 30px);
-    top: 10px;
-    text-align: center;
-}
+
 
 /* Eliminate top margin to avoid some repetitive work
 https://csswizardry.com/2012/06/single-direction-margin-declarations/
