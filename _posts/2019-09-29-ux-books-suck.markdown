@@ -4,7 +4,7 @@ title:  "Why so many UX books suck?"
 author: "Petar Perovic"
 date:   2019-09-29 22:30:00 +0100
 readingtime: "2"
-excerpt: "Figuring out what’s bothering me about industry leading literature"
+excerpt: "Figuring out what’s bothering me about popular UX literature"
 categories: product design industry ux rant hate
 ---
 
