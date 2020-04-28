@@ -15,7 +15,7 @@ I used to believe that. When I was younger, I’d roll my eyes at comments comin
 
 UX design is, to a great degree, a question of willpower. Everybody can do it and as a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But in the end of the day designers hold the ownership and responsibility for staying with the problem longer.
 
-Our principal duty is to hear and understand all sides and perspectives, and to synthesize it into what is of the biggest value for our users. In this process, everybody who informs the design is very welcome.
+Our principal duty is to hear and understand all sides and perspectives, and to synthesize it into what is of the biggest value for our users. In this process, everybody who informs the design is incredibly important.
 
 At a practical level, however, the work we produce and the UIs our users interact with depend on developers, so you could say their engagement with the design is slightly more important for us as it can have massive impact on the quality of our work.
 
