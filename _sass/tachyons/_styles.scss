@@ -37,12 +37,12 @@ body {
     line-height: $line-height-copy;
     font-size: $font-size-4;
     color: $near-black;
-    background-color: #f4f0e7;
+    background-color: #f7f0e2;
     min-height: 100%;
 }
 
 a {
-    color: $near-black;
+    color: $link-color;
 }
 
 a:focus {
