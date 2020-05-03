@@ -3,43 +3,21 @@
 
   {%- include head.html -%}
 
-  <body>
-
-    <div class="mw7 center pa3 pa5-m">
-
-        <header class="mb3 mb4-m">
-            <h1 class="f3 normal ma0">
-                <a rel="author" href="{{ "/" | relative_url }}">
-                    <img src="{% link /assets/small-donkey.svg %}" alt="donkey" width="70">
-                </a>
-            </h1>
-        </header>
-
-        <div class="bb bw1 pb3 pb4-m mb3 mb4-m">
-            <div class="measure">
-                <p class=" f5 f4-ns mb0">Hi, I’m Petar, a designer/developer who helps <a href="https://semaphoreci.com">Semaphore</a> running smoothly for the users. I’m <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter. We can have a drink if you ever visit Porto, Portugal.</p>
-            </div>
-        </div>
-
         <div>
             {%- if site.posts.size > 0 -%}
-
-                <h2 class="f4 mb3 mb4-m">From the Blog</h2>
-
+                <h2 class="f4 mb3 mb3">From the Blog</h2>
                 {%- for post in site.posts -%}
-                <a href="{{ post.url | relative_url }}" class="link flex justify-between near-black mv3 mv4-m ba bw1 bg-white pa3 hide-child">
-                    <div>
-                        <h3 class="f4 mb0">{{ post.title | escape }}</h3>
-                        <p class="f5 f4-m mb0">{{ post.excerpt }}</p>
-                    </div>
-                    <div class="f2 f1-m lh-solid child">
-                        ☞
-                    </div>
-                </a>
+                <div class="mv3">
+                    <h3 class="f5 f4-m normal mb0">
+                        <a href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}</h3>
+                        </a>
+                    </h3>
+                    <p class="f5 f4-m mb0">{{ post.excerpt }}</p>
+                </div>
                 {%- endfor -%}
 
             {%- endif -%}
         </div>
-    </div>
 
 {%- include footer.html -%}
