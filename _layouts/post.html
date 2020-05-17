@@ -7,14 +7,14 @@
 
             <div>
                 <h1 class="sans-serif f2 f1-m lh-solid mt2 mb3 mw6" itemprop="name headline">{{ page.title | escape }}</h1>
-                <p class="f4 mv3">
+                <p class="f5 f4-m mv3">
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                         {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
                         {{ page.date | date: date_format }}
                     </time> —
                 </p>
 
-                <div class="f4 measure post-content" itemprop="articleBody">
+                <div class="f5 f4-m measure post-content" itemprop="articleBody">
                     {{ content }}
                 </div>
             </div>
