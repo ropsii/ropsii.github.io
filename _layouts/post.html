@@ -5,25 +5,25 @@
 
         <article class="bt pt3" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <div class="measure-wide">
-                <h1 class="f4 f3-m lh-title mb0" itemprop="name headline">{{ page.title | escape }}</h1>
-                <p class="f5 f4-m mb3">
+            <div>
+                <h1 class="sans-serif f2 f1-m lh-solid mt2 mb3 mw6" itemprop="name headline">{{ page.title | escape }}</h1>
+                <p class="f4 mv3">
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                        {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
                         {{ page.date | date: date_format }}
-                    </time>
+                    </time> —
                 </p>
 
-                <div class="f5 f4-m post-content" itemprop="articleBody">
+                <div class="f4 measure post-content" itemprop="articleBody">
                     {{ content }}
                 </div>
             </div>
 
             <footer class="mt4 pt3 bt">
-                <div>
-                    <p class="f5 mb0">Comment <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.</p>
-                    <p class="f5 mb0">Find <a href="{{ "/" | relative_url }}">more articles</a> on homepage.</p>
-                    <p class="f5 mb0">Get updates via <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a>.</p>
+                <div class="">
+                    <p class="mb0">Comment <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.</p>
+                    <p class="mb0">Find <a href="{{ "/" | relative_url }}">more articles</a> on homepage.</p>
+                    <p class="mb0">Get updates via <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a>.</p>
                 </div>
             </footer>
 

@@ -5,15 +5,15 @@
 
         <div>
             {%- if site.posts.size > 0 -%}
-                <h2 class="f4 mb3 mb3">From the Blog</h2>
+                <h2 class="sans-serif f4 ttu tracked mb3">From the Blog</h2>
                 {%- for post in site.posts -%}
                 <div class="mv3">
-                    <h3 class="f5 f4-m normal mb0">
+                    <h3 class="f4 normal mb0">
                         <a href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}</h3>
                         </a>
                     </h3>
-                    <p class="f5 f4-m mb0">{{ post.excerpt }}</p>
+                    <p class="f4 measure mb0 pl3-ns">{{ post.excerpt }}</p>
                 </div>
                 {%- endfor -%}
 

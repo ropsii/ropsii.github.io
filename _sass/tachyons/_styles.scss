@@ -13,31 +13,22 @@
 
 */
 
-// @font-face {
-//     font-family: 'Acumin Pro';
-//     src:  url('AcuminPro-Regular.woff2') format('woff2'),
-//           url('AcuminPro-Regular.woff') format('woff');
-//     font-weight: 400;
-//     font-style: normal;
-//     font-display: swap;
-// }
-
-// @font-face {
-//     font-family: 'Acumin Pro';
-//     src:  url('AcuminPro-Bold.woff2') format('woff2'),
-//           url('AcuminPro-Bold.woff') format('woff');
-//     font-weight: 700;
-//     font-style: normal;
-//     font-display: swap;
-// }
+@font-face {
+    font-family: 'Prater Sans Regular';
+    src:  url('pratersans-regular.woff2') format('woff2'),
+          url('pratersans-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 body {
     font-family: $serif;
     line-height: $line-height-copy;
-    font-size: $font-size-4;
+    font-size: $font-size-5;
     color: $near-black;
-    background-color: #fff;
+    background-color: #fdf8ef;
     min-height: 100%;
 }
 
@@ -46,7 +37,7 @@ a {
 }
 
 a:focus {
-    outline: 3px dotted $link-color;
+    outline: 3px solid $gold;
 }
 
 hr {
@@ -59,7 +50,7 @@ hr {
 
 
 
-/* Eliminate top margin to avoid some repetitive work
+/* Eliminate top margin
 https://csswizardry.com/2012/06/single-direction-margin-declarations/
 ----------------------------------------------------------------------------- */
 h1,h2,h3,h4,h5,h6,hgroup,
@@ -68,4 +59,15 @@ p,figure,
 pre,table,fieldset,hr {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.post-content h2 {
+    font-size: $font-size-3;
+    font-family: $sans-serif;
+}
+
+.post-content h3 {
+    font-size: inherit;
+    font-style: italic;
+    font-weight: normal;
 }
