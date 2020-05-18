@@ -21,11 +21,11 @@ So even when you’re, as an individual, under a strong impression that you’re
 
 How come? Say, you’re a designer at Google Maps. One of my favorite products ever, I’m using it almost every day. You deliver honest work and you go home proud of yourself and your team every day, sincerely believing you’re making the world a nicer place for millions of your users.
 
-Unfortunately, it turns out you’ve been used. Your incredible talent has been implicitly exploited for making the biggest surveillance advertising machine in the history of mankind. And its genuine intention is really pathetic, to be honest.
+Unfortunately, it turns out you’ve been used. Your incredible talent has been implicitly exploited for making the biggest surveillance machine in the history of mankind. And its genuine intention is really pathetic, to be honest.
 
-Your company gives us the best maps man has ever seen for free, but in exchange they track us 24/7, they learn everything about our habits, what we eat, how much we earn, who our friends and our lovers are, how rich they are, how rich are our parents, who we went to school with, where we spend our holidays, do we prefer beaches or museums, rock or country, they can even figure out if we’re having an affair if they really wanted to… And all that just so they can push us to spend more money buying things.
+Your company gives us the most amazing maps man has ever seen for free, but in exchange they track us 24/7, they learn everything about our habits, what we eat, how much we earn, who our friends and our lovers are, how rich they are, how rich are our parents, who we went to school with, where we spend our holidays, do we prefer beaches or museums, rock or country, left or right, they can even figure out if we’re having an affair if they really wanted to… And all that just so they can push us to spend more money buying things.
 
-Next thing you know, we unconsciously consume 10× of what we really need, oceans are filled with plastic, killing the creatures that regulate its temperature, ice polar caps melt and we all die.
+Next thing you know, we unconsciously consume 10× of what we really need, oceans are filled with our plastic, killing the creatures that regulate its temperature, ice polar caps melt and we all die.
 
 Just because you accepted that stupid _free-candy-and-massage-included_ job offer from Google.
 
@@ -33,6 +33,6 @@ Just because you accepted that stupid _free-candy-and-massage-included_ job offe
 
 But don’t worry, I forgive you Google Maps designer. In fact, we’re all guilty of this together. It’s a system disease. The economic and moral framework we live in is like a software designed so badly it continually damages the computer it is running on.
 
-I cope with it by choosing to work for products whose impact I can imagine as good or at least neutral to the society. And by refusing to borrow my talent to companies that hope to exploit human weaknesses. It can be sometimes remarkably difficult to assess the implication correctly, and often you don’t even get the privilege to choose.
+I cope with it by choosing jobs whose impact I can imagine as good or at least neutral to the society. And by refusing to borrow my talent to companies that hope to exploit human weaknesses. It can be sometimes remarkably difficult to assess the implications correctly, and often you don’t even get the privilege to choose.
 
-But for those of us who do, in many ways it’s like separating waste. Or buying organic. We unconsciously know our individual action doesn’t do shit, but we still consciously do it. To make small acts of solidarity with nature. To be at peace with ourselves.
+But for those of us who do, in many ways it’s like separating waste. Or buying organic. We unconsciously know our individual action doesn’t do shit, but we still do it. To make small acts of solidarity with nature. To be at peace with ourselves.
