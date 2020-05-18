@@ -15,11 +15,11 @@ Most of the developers, however, are in a different group. They are soldiers. Th
 
 I used to believe in that _division of labour_. When I was younger, I’d secretly roll my eyes at comments coming from non-designers because they, of course, should never lecture designers about design. But soon I’d begin facing problems where I’d ran out of capacity when challenged with too much complexity. And as I would almost instantly learn, the feedback I’d get every day was often much more clever than anything I could come up on my own.
 
-All creative work, UX design included, is to a great degree a question of persistance. I firmly believe everybody can do UX design. As a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But in the end of the day designers hold the ownership and responsibility for staying with the problem longer.
+All creative work, UX design included, is to a great degree a question of persistance. I firmly believe everybody can do UX design. As a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But in the end of the day designers hold the ownership and responsibility to stay with the problem longer.
 
-Our principal duty is to hear and understand all sides and perspectives, so in the end we can come up with what’s of the biggest value for the users. In this process, everybody who informs the design is incredibly important.
+Our principal duty is to hear and understand all sides and perspectives, so in the end we can design what has the biggest value for the users. In this process, everybody who informs the design is incredibly important.
 
-At a practical level, however, the work we create and the UIs our users interact with depend on developers, so it wouldn’t be unfair to say their engagement with design is slightly more important as it has more impact on our work.
+At a practical level, however, the work we create and the UIs our users interact with rely on developers, so it wouldn’t be unfair to say their engagement with design is slightly more important as it has more direct impact on our work.
 
 In every team I’ve been a part of, I worked with developers more eager to participate in the design than the others. They understand you’re on the same job, just with different tools. Their feedback is priceless. They introduce you into the inner workings of the system, unlocking perspectives you otherwise would struggle to discover on your own. They make design better and they make you a better designer. They’re my 10x developers.
 

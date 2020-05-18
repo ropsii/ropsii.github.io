@@ -7,7 +7,7 @@ readingtime: "3"
 excerpt: "Towards a more considerate participation"
 categories: product design ux society moral business
 ---
-People just starting out in digital design are commonly driven by a simple desire to make things pretty. In the beginning there’s almost no greater goal, we’re moving shapes, colors and words around, trying to make them look nice together. You could say our reasoning is still naively selfish.
+People just starting out in digital design are commonly driven by a simple desire to make things pretty. In the beginning there’s almost no greater goal, we’re moving shapes, colors and words around, trying to make them look nice together. You could argue our reasoning is still naively selfish.
 
 Soon after we begin to discover the functional importance of our work and how it impacts people. Around that point we start to talk about users and _satisfying their needs_. It’s not about us anymore, not only what makes us feel good, but what makes people interacting with our software happy.  And ideally it has enough value so that some people are willing to pay for it.
 
@@ -15,24 +15,24 @@ Soon after we begin to discover the functional importance of our work and how it
 
 ## The immoral disguise
 
-That sounds like a fair exchange. Only the reality isn’t all that nice. What happens when businesses are motivated only by maximizing profit, at some point they grow too big to become blind for people and their lives. And they eventually become harmful to the society.
+That sounds like a fair exchange. Only the reality isn’t all that nice. What happens when businesses are motivated only by maximizing profit, at some point they grow so big they become blind for people and their lives. And they eventually become harmful to the society.
 
 So even when you’re, as an individual, under a strong impression that you’re working in the best interest of your users, you’re unconsciously drawn into a disguised destructive activity.
 
-How come? Say, you’re a designer at Google Maps. One of my favorite products ever, using it almost every day. You deliver amazing, honest work and you go home proud of yourself and your team every day, sincerely believing you’re making the world a nicer place for millions of people.
+How come? Say, you’re a designer at Google Maps. One of my favorite products ever, I’m using it almost every day. You deliver honest work and you go home proud of yourself and your team every day, sincerely believing you’re making the world a nicer place for millions of your users.
 
-Unfortunately, it turns out you’ve been used. Your incredible talent has been implicitly exploited for making the biggest surveillance machine in the history of mankind. And its real intention is really pathetic, to be honest.
+Unfortunately, it turns out you’ve been used. Your incredible talent has been implicitly exploited for making the biggest surveillance advertising machine in the history of mankind. And its genuine intention is really pathetic, to be honest.
 
-We give you the best maps man has ever seen for free, but in exchange we track you 24/7, we learn everything about your habits, what you eat, how much you earn, who your friends and your lovers are, how rich they are, how rich are your parents, who you went to school with, where you spend your holidays, do you prefer beaches or museums, rock or country, we can even figure out if you’re having an affair if we really wanted to. — And all of that just so we can tempt you into spending more money buying things.
+Your company gives us the best maps man has ever seen for free, but in exchange they track us 24/7, they learn everything about our habits, what we eat, how much we earn, who our friends and our lovers are, how rich they are, how rich are our parents, who we went to school with, where we spend our holidays, do we prefer beaches or museums, rock or country, they can even figure out if we’re having an affair if they really wanted to… And all that just so they can push us to spend more money buying things.
 
-Next thing you know, we all consume 10× of what we really need, oceans are filled with plastic, killing the creatures that regulate its temperature, ice polar caps melt and we all die.
+Next thing you know, we unconsciously consume 10× of what we really need, oceans are filled with plastic, killing the creatures that regulate its temperature, ice polar caps melt and we all die.
 
-Just because you accepted that stupid free-candy-and-massage-included job offer from Google.
+Just because you accepted that stupid _free-candy-and-massage-included_ job offer from Google.
 
 ## The moral of recycling
 
-But don’t worry, I forgive you Google Maps designer. In fact, we’re all guilty of this together. It’s a system disease. Our dominant economic and moral framework is like a software designed so badly it continually damages the computer it is running on.
+But don’t worry, I forgive you Google Maps designer. In fact, we’re all guilty of this together. It’s a system disease. The economic and moral framework we live in is like a software designed so badly it continually damages the computer it is running on.
 
-I cope with it by choosing to work for products whose impact I can imagine as good or at least neutral to the society. And by refusing to borrow my talent to companies that hope to exploit human weaknesses. It can be remarkably difficult to assess correctly, and often you don’t get the privilege to choose.
+I cope with it by choosing to work for products whose impact I can imagine as good or at least neutral to the society. And by refusing to borrow my talent to companies that hope to exploit human weaknesses. It can be sometimes remarkably difficult to assess the implication correctly, and often you don’t even get the privilege to choose.
 
-But for those of us who do, in many ways it’s like separating waste, or buying organic. We know our individual action doesn’t do shit, but we still do it to make small acts of solidarity with nature. To be at peace with ourselves.
+But for those of us who do, in many ways it’s like separating waste. Or buying organic. We unconsciously know our individual action doesn’t do shit, but we still consciously do it. To make small acts of solidarity with nature. To be at peace with ourselves.
