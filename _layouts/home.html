@@ -3,21 +3,23 @@
 
   {%- include head.html -%}
 
-        <div>
-            {%- if site.posts.size > 0 -%}
-                <h2 class="sans-serif f4 ttu tracked mb3">From the Blog</h2>
-                {%- for post in site.posts -%}
-                <div class="mv3">
-                    <h3 class="f5 f4-m normal mb0">
-                        <a href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}
-                        </a>
-                    </h3>
-                    <p class="f5 f4-m measure mb0 pl3-ns">{{ post.excerpt }}</p>
-                </div>
-                {%- endfor -%}
+        <div class="ph3">
+            <div class="mw6 center bg-white ba bw2 pa3 pa4-m" style="box-shadow: 10px 10px;">
+                {%- if site.posts.size > 0 -%}
+                    <h2 class="sans-serif f3 mb3">2-minute essays</h2>
+                    {%- for post in site.posts -%}
+                    <div class="mv3">
+                        <h3 class="f5 normal mb0">
+                            <a href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a>
+                        </h3>
+                        <p class="f5 measure mb0">{{ post.excerpt }}</p>
+                    </div>
+                    {%- endfor -%}
 
-            {%- endif -%}
+                {%- endif -%}
+            </div>
         </div>
 
 {%- include footer.html -%}

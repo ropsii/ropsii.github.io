@@ -3,26 +3,26 @@
 
 {%- include head.html -%}
 
-        <article class="bt pt3" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="mw6 center ba bw2 bg-white pa3 pa4-m" style="box-shadow: 10px 10px;" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <div>
-                <h1 class="sans-serif f2 f1-m lh-solid mt2 mb3 mw6" itemprop="name headline">{{ page.title | escape }}</h1>
-                <p class="f5 f4-m mv3">
-                    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
-                        {{ page.date | date: date_format }}
-                    </time> —
-                </p>
+            <div class="">
+                <h1 class="f3 lh-solid mt0 mt2-m mb3 pb3 pb4-m bb bw2" itemprop="name headline">{{ page.title | escape }}</h1>
 
-                <div class="f5 f4-m measure post-content" itemprop="articleBody">
+                <div class="f5 f4-m post-content" itemprop="articleBody">
                     {{ content }}
                 </div>
             </div>
 
-            <footer class="mt4 pt3 bt">
-                <div class="">
+            <footer class="mt4">
+                <div class="f6">
+                    <p class="b mb3">Published on
+                        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                            {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
+                            {{ page.date | date: date_format }}.
+                        </time>
+                    </p>
                     <p class="mb0">Comment <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.</p>
-                    <p class="mb0">Find <a href="{{ "/" | relative_url }}">more articles</a> on homepage.</p>
+                    <p class="mb0">More 2-minute essays on <a href="{{ "/" | relative_url }}">homepage</a>.</p>
                     <p class="mb0">Get updates via <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a>.</p>
                 </div>
             </footer>

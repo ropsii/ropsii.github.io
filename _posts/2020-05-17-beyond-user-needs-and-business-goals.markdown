@@ -19,7 +19,7 @@ That sounds like a fair exchange. Only the reality isn’t all that nice. What h
 
 So even when you’re, as an individual, under a strong impression that you’re working in the best interest of your users, you’re unconsciously drawn into a disguised destructive activity.
 
-How come? Say, you’re a designer at Google Maps. One of my favorite products ever, I’m using it almost every day. You deliver honest work and you go home proud of yourself and your team every day, sincerely believing you’re making the world a nicer place for millions of your users.
+How come? Say, you’re a designer at Google Maps. One of my favorite products ever, I’m using it almost every day. You deliver honest work and you go home proud of yourself and your team every day, sincerely believing you’re making the world a better place for the entire humanity.
 
 Unfortunately, it turns out you’ve been used. Your incredible talent has been implicitly exploited for making the biggest surveillance machine in the history of mankind. And its genuine intention is really pathetic, but nonetheless dangerous.
 
