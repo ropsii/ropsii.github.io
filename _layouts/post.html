@@ -5,8 +5,8 @@
 
         <article class="mw6 center ba bw2 bg-white pa3 pa4-m" style="box-shadow: 10px 10px;" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <div class="">
-                <h1 class="f3 lh-title mt0 mt2-m mb3 pb3 bb bw2" itemprop="name headline">{{ page.title | escape }}</h1>
+            <div>
+                <h1 class="f3 lh-title mt0 mb3 pr4-m pb3 bb bw2" itemprop="name headline">{{ page.title | escape }}</h1>
 
                 <div class="f5 f4-m post-content" itemprop="articleBody">
                     {{ content }}
@@ -15,7 +15,7 @@
 
             <footer class="mt4">
                 <div class="f6">
-                    <p class="b mb3">Published on
+                    <p class="b mb1">Published on
                         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                             {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
                             {{ page.date | date: date_format }}.
