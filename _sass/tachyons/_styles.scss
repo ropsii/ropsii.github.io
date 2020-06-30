@@ -19,7 +19,7 @@ body {
     line-height: $line-height-copy;
     font-size: $font-size-5;
     color: $near-black;
-    background: moccasin;
+    background: blanchedalmond;
 }
 
 a {
@@ -55,14 +55,14 @@ pre,table,fieldset,hr {
     margin-bottom: 1rem;
 }
 
-.post-content p:first-child::first-letter {
-    float: left;
-    display: block;
-    font-weight: bold;
-    font-size: 52px;
-    line-height: 1;
-    margin-right: 8px;
-}
+// .post-content p:first-of-type::first-letter {
+//     float: left;
+//     display: block;
+//     font-weight: bold;
+//     font-size: 52px;
+//     line-height: 1;
+//     margin-right: 8px;
+// }
 
 .post-content h2 {
     font-size: $font-size-4;
