@@ -12,13 +12,13 @@ Early in my career I was always in doubt with my process. I thought there was a 
 
 I had no better idea where to look, but books, hoping I would learn [how they design at Google](https://stopdesign.com/archive/2009/03/20/goodbye-google.html) or whatever company we were romanticizing at the time. But book after book, I consistently felt puzzled by abstract doctrines I’d had no idea what to do with.
 
-Concepts such as _Focus Groups_, _Market Segmentation_ or _Personas_ felt so distant from my daily job. Even after years and many different jobs, domains and teams – my understanding of design matured, but my feeling didn’t change a lot.
+Concepts such as _Focus Groups_, _A/B Testing_ or _Personas_ felt so distant from my daily job. Even after years and many different jobs, domains and teams – my understanding of design matured, but my feeling didn’t change a lot.
 
-At some point down the road I started wondering why is my experience so different from theirs and realized that most famous UX books come from (a) Academics trying to understand human behavior or (b) Practitioners with experience working in big organizations.
+At some point down the road I started wondering why is my experience so different from theirs and realized that most famous UX books come from (a) Academics trying to understand human behavior or (b) Practitioners working in big organizations on a scale too distant from my reality. Almost like we’re in a different profession.
 
-Their perception and the context they operate in are dramatically different from mine. The tools and methods they describe were often developed to address issues specific to a certain business. And even though many of the findings are insightful indeed, most of the time it feels like reading instructions for gala dinner when you just wanna make pizza for a small group of friends.
+Their perception and the context they operate in are dramatically different from mine. The tools and methods they describe were often developed to address issues specific to a certain business. And even though many of their arguments are compelling indeed, most of the time it feels like reading instructions for gala dinner when you just wanna make pizza at home for friends.
 
-In other words, what works for a 1000 people enterprise organization, never applies flawlessly to a 10 people company, let alone the UX design generally.
+In other words, what works well for a 1000 people enterprise organization, never applies flawlessly to a 10 people company, let alone the UX design generally.
 
 Most software companies today count less than 50 people and usually only a handful of designers. In such a setting, a designer's role is more general and work ships more liberally. We will rarely employ complex operations to validate every design decision but mostly operate in a trial and error routine.
 
