@@ -20,6 +20,6 @@ Their perception and the context they operate in are dramatically different from
 
 In other words, what works well for a 1000 people enterprise organization, never applies flawlessly to a 10 people company, let alone the UX design generally.
 
-Most software companies today count less than 50 people and usually only a handful of designers. In such a setting, a designer's role is more general and work ships more liberally. We will rarely employ complex operations to validate every design decision but mostly operate in a trial and error routine. For example, no one denies that A/B testing has its deserved place in our profession, but at the scale most of us work – it’s irrelevant.
+Most software companies today count less than 50 people and usually only a handful of designers. In such a setting, a designer's role is more general and work ships more liberally. We will rarely employ complex operations to validate every design decision but mostly operate in a trial and error routine. No one denies that A/B testing has its deserved place in our profession, but at the scale most of us work – it’s completely irrelevant.
 
 Yet most of the time, the advice is coming from people with a different background. Making many specific practices, entire chapters from the books, feel out of touch with reality. It’s not that the books are bad or that the techniques are somehow broken, it’s just not how most of us do things every day.
