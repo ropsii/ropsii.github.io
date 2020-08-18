@@ -25,17 +25,14 @@ body {
 a {
     color: $blue;
     text-decoration-color: $light-silver;
-    transition: background .075s ease-in;
-    padding: 0 4px;
-    margin: 0 -4px;
+    transition: background 100ms ease-in;
 }
 
 a:hover,
 a:focus {
-    outline: none;
-    background: $yellow;
     border-radius: .25rem;
-    text-decoration: none;
+    text-decoration-color: $blue;
+    background: $lightest-blue;
 }
 
 hr {
