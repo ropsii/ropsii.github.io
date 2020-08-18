@@ -19,23 +19,28 @@ body {
     line-height: $line-height-copy;
     font-size: $font-size-5;
     color: $near-black;
-    background: floralwhite;
+    background-color: #fff;
 }
 
 a {
-    color: $link-color;
+    color: $blue;
+    text-decoration-color: $light-silver;
+    transition: background .075s ease-in;
+    padding: 0 4px;
+    margin: 0 -4px;
 }
 
-a:hover {
+a:hover,
+a:focus {
+    outline: none;
+    background: $blue;
+    color: white;
+    border-radius: .25rem;
     text-decoration: none;
 }
 
-a:focus {
-    outline: 3px solid $link-color;
-}
-
 hr {
-    height: 1px;
+    height: 2px;
     width: 60px;
     border: 0;
     background: $near-black;
@@ -72,4 +77,8 @@ pre,table,fieldset,hr {
     font-size: inherit;
     font-style: italic;
     font-weight: normal;
+}
+
+.post-content code {
+    font-size: .9em;
 }

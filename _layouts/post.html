@@ -3,13 +3,13 @@
 
 {%- include head.html -%}
 
-        <article class="mw6 center ba bw2 bg-white pa3 pa4-m shadow-1" itemscope itemtype="http://schema.org/BlogPosting">
+        <article itemscope itemtype="http://schema.org/BlogPosting">
 
             <div>
-                <h1 class="f2 lh-title mt0 mb3 pr4-m pb3 bb bw2" itemprop="name headline">{{ page.title | escape }}</h1>
+                <h1 class="f3 lh-title mt0 mb3 pr4-m" itemprop="name headline">{{ page.title | escape }}</h1>
 
-                <div class="f5 f4-m post-content" itemprop="articleBody">
-                    <div class="fr f6 tr pl3">
+                <div class="serif f3 post-content" itemprop="articleBody">
+                    <div class="fr f6 tr pl3 dn">
                         <div>Petar Perovic</div>
                         <div>
                             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -24,10 +24,13 @@
             </div>
 
             <footer class="mt4">
-                <div class="f6">
-                    <p class="mb0">Comment <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.</p>
-                    <p class="mb0">More 2-minute reads on <a href="{{ "/" | relative_url }}">homepage</a>.</p>
-                    <p class="mb0">Get updates via <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a>.</p>
+                <div class="serif f6">
+                    <p class="mb0">
+                        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                            {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                            {{ page.date | date: date_format }}
+                        </time>
+                        ✳ Comment <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter. Stay in the loop with <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a>.</p>
                 </div>
             </footer>
 

@@ -15,7 +15,7 @@ Most of the developers, however, are in a different group. They are soldiers. Th
 
 I used to believe in that _division of labour_. When I was younger, I’d secretly roll my eyes at comments coming from non-designers because they, of course, should never lecture designers about design. But soon I’d begin facing problems where I’d ran out of capacity when challenged with too much complexity. And as I would almost instantly learn, the feedback I’d get every day was often much more clever than anything I could come up on my own.
 
-All creative work, UX design included, is to a great degree a question of persistance. I firmly believe everybody can do UX design. As a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But in the end of the day designers hold the ownership and responsibility to stay with the problem longer.
+All creative work, UX design included, is to a great degree a question of persistance. Everybody can design. As a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But in the end of the day designers hold the ownership and responsibility to stay with the problem longer.
 
 Our principal duty is to hear and understand all sides and perspectives, so in the end we can design what has the biggest value for the users. In this process, everybody who informs the design is incredibly important.
 

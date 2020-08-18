@@ -8,20 +8,16 @@
     {%- feed_meta -%}
 </head>
 
-<body>
+<body class="ph3 pb6">
 
-    <div class="pb5 ph3">
-
-        <header>
-            <div class="flex items-center mw6 center pv3 pv4-m">
-                <h1 class="flex-shrink-0 normal mt0 mb0 mr4">
-                    <a rel="author" href="{{ "/" | relative_url }}">
-                        <img src="{% link /assets/small-donkey.svg %}" alt="donkey" width="64">
-                    </a>
-                </h1>
-                <p class="f6 mb0">
-                    Hi, I’m Petar, a designer/developer at <a href="https://semaphoreci.com">Semaphore</a>.<br class="dn di-m">
-                    Couple of words <a href="{{ "/profile" | relative_url }}">about me</a>.
-                </p>
+    <div>
+        <div class="flex items-center justify-between bb bw1 pv1">
+            <h1 class="f4 normal mb0">
+                <a rel="author" href="{{ "/" | relative_url }}" class="link near-black hover-bg-blue br2">
+                    Petar Perović</a> ✳ product designer
+            </h1>
+            <div class="f4">
+                <a href="{{ "/profile" | relative_url }}" class="link near-black hover-bg-blue br2">☺ About me</a>
             </div>
-        </header>
+        </div>
+        <div class="mw6 center pt4">
