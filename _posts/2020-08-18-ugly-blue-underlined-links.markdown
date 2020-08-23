@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Over-intervention in the UI design"
+title:  "In defence of ugly blue underlined links"
 author: "Petar Perovic"
 date:   2020-07-11 12:10:00 +0100
 readingtime: "2"
@@ -22,4 +22,4 @@ We make links hard to identify or choose color so poorly that contrast drops way
 
 Mistreating fundamentals increases the cognitive load. Users lose a couple of seconds when they’re not sure if some text is a link. More while squinting at the thin, light-gray passage of text. And even more to figure out a feature with poorly designed copy. It puts them in the state of permanent wrestle with the UI. And that’s just the typography and visuals, we didn’t even observe to what extent a poor interaction slows them down.
 
-In software UIs whose principal duty is to explain, guide and act as the extension of human brain, intervening on foundations must be minimal. Browser defaults are carefully configured for usability before we start to tear them apart. That’s not to say you shouldn’t, but the next time you think of replacing those “ugly” blue underlined links for something more _elegant_, remember that in software — _usable is beautiful_.
+In software UIs whose principal duty is to explain, guide and act as the extension of human brain, intervening on foundations must be minimal. Browser defaults are carefully configured for usability before we start to tear them apart. That’s not to say you shouldn’t, but the next time you think of replacing those “ugly” blue underlined links for something more elegant, remember that in software — _usable is beautiful_.
