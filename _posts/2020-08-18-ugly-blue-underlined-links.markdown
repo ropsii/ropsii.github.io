@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "In defence of ugly blue underlined links"
+title:  "In defence of ugly, blue underlined links"
 author: "Petar Perovic"
 date:   2020-07-11 12:10:00 +0100
 readingtime: "2"

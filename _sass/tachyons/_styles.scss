@@ -24,14 +24,12 @@ body {
 
 a {
     color: $blue;
-    text-decoration-color: $light-silver;
     transition: background 100ms ease-in;
 }
 
 a:hover,
 a:focus {
     border-radius: .25rem;
-    text-decoration-color: $blue;
     background: $black-10;
 }
 
