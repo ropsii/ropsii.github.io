@@ -24,13 +24,13 @@ body {
 
 a {
     color: $blue;
-    transition: background 100ms ease-in;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 
 a:hover,
 a:focus {
     border-radius: .25rem;
-    background: $black-10;
 }
 
 hr {
