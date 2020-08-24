@@ -8,7 +8,7 @@ excerpt: "Usable is beautiful"
 categories: typography product design ux ui
 ---
 
-Designers need a constant reminder about the fundamentals of good UI design. The goal of visual design in user interfaces is to make content accessible, understandable and easy to consume.
+Designers need a constant reminder about the fundamentals of good UI design. The goal of graphic design in user interfaces is to make content accessible, understandable and easier to consume.
 
 However, that gets neglected, sometimes under the burden of trends, and often out of a personal preference or sheer complexity of the interface that designer is trying to _domesticate_.
 
