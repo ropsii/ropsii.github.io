@@ -24,6 +24,6 @@ Yet, design is equally an effort to make things uniform and this is the counter-
 
 Mistreating the fundamentals increases the cognitive load. Users need an additional couple of seconds when they’re not sure if some text is a link. More while squinting at the thin, light-gray passage of text. And even more to figure out a poorly described feature. And that’s only the graphic design layer. Not to mention the effects of interaction on the speed of understanding the UI.
 
-## Fundamentals precede creativity
+## Get your fundamentals straight
 
 In software UIs whose principal duty is to explain, guide and act as the extension of human brain, intervening on foundations must be minimal. Browser defaults are carefully configured for usability before we start to tear them apart. That’s not to say you shouldn’t, but the next time you think of replacing those “ugly” blue underlined links for something more elegant, remember that in software — _usable is beautiful_.
