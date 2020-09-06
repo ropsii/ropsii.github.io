@@ -3,23 +3,35 @@
 
   {%- include head.html -%}
 
-        <div>
-            <p class="serif f5 f3-m mb4">
-                Hey there. My name is Petar, I design and develop software UIs and websites for a living. Here I share my views about design, software, organization and sometimes ponder how it all affects the society.
-            </p>
-            {%- if site.posts.size > 0 -%}
-                <h2 class="f4 f3-m mb3">2-minute reads</h2>
-                {%- for post in site.posts -%}
-                <div class="mb3">
-                    <h3 class="f6 f3-m normal mb0">
-                        <a href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}
-                        </a>
-                    </h3>
-                    <p class="serif f5 f3-m measure mb0">{{ post.excerpt }}</p>
-                </div>
-                {%- endfor -%}
-            {%- endif -%}
+    <div class="mw8 center pt3 pt4-m">
+
+        <div class="flex-m">
+            <div class="w-third-m pr4-m ph4-l">
+
+                <p class="f5 f4-m mb4">Hey there. My name is Petar, I design and develop software UIs and websites for a living — I run product design and help with strategy at <a href="https://semaphoreci.com">Semaphore</a>.</p>
+                <img src="{% link /assets/me.svg %}" alt="Petar Perovic" class="db mb4">
+
+            </div>
+            <div class="w-two-thirds-m pl4-m ph4-l">
+
+                {%- if site.posts.size > 0 -%}
+                    <h2 class="f2 f1-m normal lh-title mb3">Blog</h2>
+                    <p class="f5 f4-m mb4 measure-narrow">
+                        Random rumblings about design, software, organization and occasionally about their effects on society.
+                    </p>
+
+                    {%- for post in site.posts -%}
+                    <div class="mb3">
+                        <h3 class="f5 f4-m normal mb0">
+                            <a href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a>
+                        </h3>
+                        <p class="f5 f4-m measure mb0">{{ post.excerpt }}</p>
+                    </div>
+                    {%- endfor -%}
+                {%- endif -%}
+            </div>
         </div>
 
 {%- include footer.html -%}

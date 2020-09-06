@@ -18,26 +18,29 @@ body {
     font-family: $sans-serif;
     line-height: $line-height-copy;
     font-size: $font-size-5;
-    color: $near-black;
-    background-color: #fff;
+    color: $dark-gray;
 }
 
 a {
     color: $blue;
-    text-decoration: none;
-    border-bottom: 1px solid;
+    position: relative;
 }
 
 a:hover,
 a:focus {
-    border-radius: .25rem;
+    color: $dark-gray;
+    background-color: $light-gray;
+}
+
+a:active {
+    top: 1px;
 }
 
 hr {
     height: 2px;
     width: 60px;
     border: 0;
-    background: $near-black;
+    background: $dark-gray;
     margin: 2rem auto !important;
 }
 
@@ -57,14 +60,22 @@ pre,table,fieldset,hr {
 // .post-content p:first-of-type::first-letter {
 //     float: left;
 //     display: block;
-//     font-weight: bold;
 //     font-size: 52px;
 //     line-height: 1;
 //     margin-right: 8px;
 // }
 
 .post-content h2 {
-    font-size: $font-size-3;
+    font-size: $font-size-4;
+    border-bottom: 2px solid;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+
+@media #{$breakpoint-medium} {
+    .post-content h2 {
+        font-size: $font-size-2;
+    }
 }
 
 .post-content h3 {
