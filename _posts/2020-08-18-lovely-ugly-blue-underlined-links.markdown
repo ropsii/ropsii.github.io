@@ -20,7 +20,7 @@ So, what is a signal? In broadest sense – all elements on the page compete for
 
 ## How to make a slower UI?
 
-Yet, design is equally an effort to make things uniform and that often results in excessive intervention. We make links hard to identify or choose color so poorly that contrast drops way below comfortable. This hurts our understanding with the machine. No one stops for a moment to think if a bright blue, underlined text is a link. It’s the most common convention on the web.
+Yet, design is equally an effort to make things uniform and that often results in excessive intervention. We make links hard to identify or choose color so poorly that contrast drops way below comfortable. This hurts our communication with the computer.
 
 Still, we persist in breaking the rules when we use tiny, hard to read font sizes. We abuse font weight just as much. Too thin fonts in longform are painful to read, yet designers insist  it’s beautiful. Even Google, a company that arguably hires the best people in the world, at the time of writing this uses `font-weight:300;` for body copy on their official blog. That’s hardly a bearable reading experience even on the retina display, and good luck reading that on an average cheap monitor.
 
