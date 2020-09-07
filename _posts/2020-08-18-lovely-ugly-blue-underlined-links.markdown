@@ -30,4 +30,4 @@ Designers’ duty is to keep these things in check. Not to question the conventi
 
 ## Get your fundamentals straight
 
-In software UIs whose principal duty is to explain, guide and act as the extension of human brain, working against the common understanding must be minimal. Browser defaults are carefully configured in line with common conventions before we start to tear them apart. That’s not to say you shouldn’t experiment, but the next time you think of replacing those “ugly” blue underlined links for something more elegant, always have in mind that in software — _usable is beautiful_.
+In software UIs whose principal duty is to explain, guide and act as the extension of human brain, working against the common understanding must be minimal. Browser defaults are carefully configured in line with broadly accepted conventions before we start to tear them apart. That’s not to say you shouldn’t experiment, but the next time you think of replacing those “ugly” blue underlined links for something more elegant, always have in mind that in software — _usable is beautiful_.

@@ -87,3 +87,33 @@ pre,table,fieldset,hr {
 .post-content code {
     font-size: .9em;
 }
+
+.footnotes {
+    font-size: $font-size-6;
+}
+
+.footnotes ol {
+    border-top: 2px solid;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.email-input {
+    position: relative;
+    border-radius: 3px;
+    width: 210px;
+}
+
+.email-input:focus {
+    color: $dark-gray;
+    text-decoration: none;
+}
+
+.email-input:hover {
+    // box-shadow: 0 0 0 1px, inset 0 0 0 1px;
+    text-decoration: none;
+}
+
+.email-input:hover::after {
+    content: 'hey';
+}
