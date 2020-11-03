@@ -13,6 +13,13 @@
                         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                         {{ page.date | date: date_format }}
                     </time>
+                    ·
+                    {% assign words = content | number_of_words %}
+                    {% if words < 360 %}
+                    1 min.
+                    {% else %}
+                    {{ words | divided_by:180 }} min.
+                    {% endif %} read
                 </p>
                 <h1 class="f2 f1-m normal lh-title mt0 mb3" itemprop="name headline">{{ page.title | escape }}</h1>
 

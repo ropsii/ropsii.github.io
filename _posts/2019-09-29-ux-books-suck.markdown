@@ -3,8 +3,7 @@ layout: post
 title:  "Why so many UX books suck?"
 author: "Petar Perovic"
 date:   2019-09-29 22:30:00 +0100
-readingtime: "2"
-excerpt: "What’s bothering me about the popular UX literature"
+summary: "What’s bothering me about the popular UX literature"
 categories: product design industry ux rant hate
 ---
 
@@ -14,9 +13,9 @@ I had no better idea where to look, but books, hoping I would learn [how they de
 
 Concepts such as _Focus Groups_, _A/B Testing_ or _Personas_ felt so distant from my daily job. Even after years and many different jobs, domains and teams – my understanding of design matured, but my feeling didn’t change a lot.
 
-At some point down the road I started wondering why is my experience so different from theirs and realized that most famous UX books come from (a) Academics trying to understand human behavior or (b) Practitioners working in big organizations on a scale too distant from my reality. Almost like we’re in a different profession.
+At some point down the road I started wondering why is my experience so different from theirs and realized that most famous UX books come from (a) Academics trying to understand human behavior or (b) Practitioners working for big organizations on a scale too distant from my reality. Almost as if we were in a different profession.
 
-Their perception and the context they operate in are dramatically different from mine. The tools and methods they describe are too often addressing the issues specific to a certain business and a certain scale. And even though many of the arguments are compelling indeed, most of the time it feels like reading instructions for gala dinner when you just wanna make pizza at home for friends.
+Their perception and the context they operate in are dramatically different from mine. The tools and methods they describe are too often addressing the issues specific to a certain business and a certain scale. And even though many of the arguments sound compelling indeed, most of the time their advice feels like reading instructions for gala dinner when you just wanna make pizza at home for friends.
 
 In other words, what works well for a 1000 people enterprise organization, never applies flawlessly to a 10 people company, let alone the UX design generally.
 

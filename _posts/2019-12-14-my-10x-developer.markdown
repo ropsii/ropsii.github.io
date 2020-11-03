@@ -3,8 +3,7 @@ layout: post
 title:  "My 10x developer"
 author: "Petar Perovic"
 date:   2019-12-14 10:10:00 +0100
-readingtime: "2"
-excerpt: "Product design as collective effort"
+summary: "Product design as collective effort"
 categories: product design ux process
 ---
 In engineering driven organizations design is slightly undervalued almost by nature. Even when it is recognized as important, I’ve witnessed many times how difficult it is to achieve excellence in design when company spirit is rooted in engineering.
@@ -25,4 +24,4 @@ In every team I’ve been a part of, I worked with developers more eager to part
 
 ***
 
-Individual credit in software is a myth. There are incredible musicians and artists, individuals whose wonderful gift leaves you speechless, but it’s not how it works in software. No matter what they persuaded us into believing about Steve Jobs or Elon Musk. It’s undeniable that some people are more talented than the others and have significant impact on the organization, but what we end up admiring in software is always the result of collective effort.
+Individual credit in software is a myth. There are incredible musicians and artists, individuals whose wonderful gift leaves you speechless, but not in software. No matter what they persuaded us into believing about Steve Jobs or Elon Musk. It’s undeniable some people are more talented than the others and can have significant impact on the organization, but what we end up admiring in software is always the result of collective effort.

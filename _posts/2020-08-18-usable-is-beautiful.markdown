@@ -3,8 +3,7 @@ layout: post
 title:  "The beauty of ugly, blue underlined links"
 author: "Petar Perovic"
 date:   2020-07-11 12:10:00 +0100
-readingtime: "2"
-excerpt: "Usable is beautiful"
+summary: "Usable is beautiful"
 categories: typography product design ux ui
 ---
 
@@ -16,7 +15,7 @@ However, that gets neglected, sometimes under the burden of trends, and often ou
 
 We tend to sterilize our work. I do it all the time. In order to fight the visual complexity we remove too many _signals_ and our UIs become unintentionally worse. When there’s not enough signal, eyes can’t stop and rest, and user feels lost. When there’s too many, UI gets messy and incoherent.
 
-So, what is a signal? In broadest sense – all elements on the page compete for our attention and signal is what gives some of them more importance and meaning. Underlined text on the web usually means it’s a link, bold text emphasizes the importance, bigger font size also, and so on. For example titles and paragraphs in this text allow you to consume it with less effort. Everything that sets something apart from uniformity is a signal.
+So, what is a signal? In broadest sense – all elements on the page compete for our attention and signal is what gives some of them more importance and meaning. Underlined text on the web usually means it’s a link, bold text emphasizes the importance, bigger font size also, frames and colors. Images and illustrations, icons in the user interfaces, and so on. Everything that sets something apart from uniformity is a signal.
 
 ## How to make a slower UI?
 
