@@ -5,7 +5,7 @@ author: "Petar Perovic"
 date:   2020-11-01 10:10:00 +0100
 summary: "Why we get up for work every day?"
 categories: productivity social
-image: /assets/cover-productivity.jpg
+image: /assets/cover-productivity.png
 ---
 
 <img class="fr ml3 nr5" width="180" height="320" src="{% link /assets/productivity-box_man.jpg %}">
