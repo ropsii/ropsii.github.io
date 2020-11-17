@@ -121,7 +121,7 @@ $dark-green: #137752 !default;
 $green: #19a974 !default;
 $light-green: #9eebcf !default;
 $navy: #001b44 !default;
-$dark-blue: #0838a7 !default;
+$dark-blue: #02067b !default;
 $blue: #090fc5 !default;
 $light-blue: #96ccff !default;
 $lightest-blue: #cdecff !default;
@@ -130,7 +130,7 @@ $washed-green: #e8fdf5 !default;
 $washed-yellow: #fffceb !default;
 $washed-red: #ffdfdf !default;
 
-$link-color: darkblue;
+$link-color: $blue;
 
 // Custom Media Query Variables
 
