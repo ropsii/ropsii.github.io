@@ -9,6 +9,10 @@
 
             <div>
                 <p class="f5 f4-m mb2">
+                    <a rel="author" href="{{ "/" | relative_url }}">Petar Perović</a> /
+                </p>
+                <h1 class="f2 f1-m normal lh-title mt0 mb2" itemprop="name headline">{{ page.title | escape }}</h1>
+                <p class="f6 mb3">
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                         {{ page.date | date: date_format }}
@@ -21,8 +25,6 @@
                     {{ words | divided_by:180 }} min.
                     {% endif %} read
                 </p>
-                <h1 class="f2 f1-m normal lh-title mt0 mb3" itemprop="name headline">{{ page.title | escape }}</h1>
-
                 <div class="f5 f4-m post-content" itemprop="articleBody">
                     {{ content }}
                 </div>
