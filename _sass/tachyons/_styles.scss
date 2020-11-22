@@ -19,16 +19,21 @@ body {
     line-height: $line-height-copy;
     font-size: $font-size-5;
     color: $dark-gray;
+    background-color: $background-color;
 }
 
 a {
     color: $link-color;
     position: relative;
+    border-radius: $border-radius-2;
+    transition: background-color .1s;
+    padding: 0 2px;
+    margin: 0 -2px;
 }
 
 a:hover,
 a:focus {
-    // color: $dark-blue;
+    background-color: $washed-red;
 }
 
 a:active {
@@ -108,7 +113,7 @@ img + em {
     right: 8px;
     top: -12px;
     font-size: $font-size-5;
-    background: white;
+    background-color: $background-color;
     padding: 0 8px;
 }
 
@@ -119,8 +124,8 @@ a.footnote {
     justify-content: center;
     align-items: center;
     line-height: 1;
-    color: $white;
-    background-color: $light-silver;
+    color: $background-color;
+    background-color: $link-color;
     width: 20px;
     height: 16px;
     text-align: center;
@@ -129,7 +134,7 @@ a.footnote {
 }
 
 a.footnote:hover {
-    background-color: $gray;
+    background-color: $dark-gray;
 }
 
 .footnotes {
@@ -144,24 +149,4 @@ a.footnote:hover {
 
 .footnotes p {
     margin-bottom: .25em;
-}
-
-.email-input {
-    position: relative;
-    border-radius: 3px;
-    width: 210px;
-}
-
-.email-input:focus {
-    color: $dark-gray;
-    text-decoration: none;
-}
-
-.email-input:hover {
-    // box-shadow: 0 0 0 1px, inset 0 0 0 1px;
-    text-decoration: none;
-}
-
-.email-input:hover::after {
-    content: 'hey';
 }
