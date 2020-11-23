@@ -61,14 +61,6 @@ pre,table,fieldset,hr {
     margin-bottom: 1rem;
 }
 
-// .post-content p:first-of-type::first-letter {
-//     float: left;
-//     display: block;
-//     font-size: 52px;
-//     line-height: 1;
-//     margin-right: 8px;
-// }
-
 .post-content h2 {
     font-size: $font-size-4;
     border-bottom: 2px solid;
@@ -81,7 +73,6 @@ img + em {
     display: block;
     text-align: center;
 }
-
 
 @media #{$breakpoint-medium} {
     .post-content h2 {
