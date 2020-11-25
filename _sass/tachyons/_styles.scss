@@ -90,6 +90,24 @@ img + em {
     font-size: .9em;
 }
 
+.post-content blockquote {
+    border-left: 2px solid $link-color;
+    padding-left: 2rem;
+    margin-left: 0;
+    font-size: 120%;
+    position: relative;
+}
+
+.post-content blockquote::after {
+    content: "”";
+    position: absolute;
+    top: -.9rem;
+    right: -2rem;
+    color: $link-color;
+    font-size: 6rem;
+    line-height: 1;
+}
+
 .post-content .highlight {
     border: 2px solid;
     padding: 16px;
@@ -122,10 +140,6 @@ a.footnote {
     text-align: center;
     border-radius: 999px;
     font-size: 12px;
-}
-
-a.footnote:hover {
-    background-color: $dark-gray;
 }
 
 .footnotes {

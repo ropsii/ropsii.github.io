@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Beyond user needs and business goals"
+title:  "Beyond User Needs and Business Goals"
 author: "Petar Perovic"
 date:   2020-05-17 10:10:00 +0100
 summary: "Towards a more considerate participation"

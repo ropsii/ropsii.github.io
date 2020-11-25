@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why so many UX books suck?"
+title:  "Why So Many UX Books Suck?"
 author: "Petar Perovic"
 date:   2019-09-29 22:30:00 +0100
 summary: "What’s bothering me about the popular UX literature"

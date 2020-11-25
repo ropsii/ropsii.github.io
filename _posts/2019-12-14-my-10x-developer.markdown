@@ -1,22 +1,24 @@
 ---
 layout: post
-title:  "My 10x developer"
+title:  "My 10x Developer"
 author: "Petar Perovic"
 date:   2019-12-14 10:10:00 +0100
 summary: "Product design as collective effort"
 categories: product design ux process
 ---
+
+<img class="fr ml3 ml4-m nt4 nr5-m mw4 mw5-m w-100" src="{% link /assets/10x-dev-carnival.png %}">
 In engineering driven organizations design is slightly undervalued almost by nature. Even when it is recognized as important, I’ve witnessed many times how difficult it is to achieve excellence in design when company spirit is rooted in engineering.
 
 Having worked in this environment for most of my career, it made me appreciate developers that have a certain jest for product design, that I could team up with to get the most out of design under the specific circumstances.
 
 Most of the developers, however, are in a different group. They are soldiers. They conform to the very distinct lines of responsibility — designers design, and following their input developers develop. Writing software is already difficult enough, so keeping these two activities distinctly apart seemingly makes sense.
 
-I used to believe in that _division of labour_. When I was younger, I’d secretly roll my eyes at comments coming from non-designers because they, of course, should never lecture designers about design. But soon I’d begin facing problems where I’d ran out of capacity when challenged with too much complexity. And as I would almost instantly learn, the feedback I’d get every day was often much more clever than anything I could come up on my own.
+I used to believe in that _division of labour_. When I was younger, I’d secretly roll my eyes at comments coming from non-designers because they, of course, should never lecture designers about design. But soon I’d begin facing problems where I’d ran out of capacity when challenged with too much complexity. And as I would almost instantly learn, the feedback I was getting was routinely much more clever than anything I could come up with on my own.
 
-All creative work, UX design included, is to a great degree a question of persistance. Everybody can design. As a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But in the end of the day designers hold the ownership and responsibility to stay with the problem longer.
+All creative work, UX design included, is to a great degree a question of persistance. Everybody can design. As a matter of fact everybody in a company is doing it, whether they’re aware of it or not. But at the end of the day designers hold the ownership and responsibility to stay with the problem longer.
 
-Our principal duty is to hear and understand all sides and perspectives, so in the end we can design what has the biggest value for the users. In this process, everybody who informs the design is incredibly important.
+Our principal duty is to hear and understand all sides and perspectives, and compile that into the biggest value for both users and the business. In this process, everybody who informs the design is incredibly important.
 
 At a practical level, however, the work we create and the UIs our users interact with rely on developers, so it wouldn’t be unfair to say their engagement with design is slightly more important as it has more direct impact on our work.
 
