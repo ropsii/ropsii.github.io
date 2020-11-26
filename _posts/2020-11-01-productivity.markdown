@@ -8,7 +8,7 @@ categories: productivity social
 image: /assets/cover-productivity.png
 ---
 
-<img class="fr ml3 nr5-m" width="180" height="320" src="{% link /assets/productivity-box_man.jpg %}" style="mix-blend-mode: multiply;">
+<img class="fr ml3 nr5-m" width="180" height="320" src="{% link /assets/productivity-box_man.jpg %}" alt="vintage illustration of a man carrying a box" style="mix-blend-mode: multiply;">
 We’re bombarded daily with tips on how to do more in less time. We hear how the most successful people have this secret thing that makes them super-productive. They tell us getting enough sleep, eating well, and cleverly organizing our time will make us better at our job. While a fresh mind undoubtedly improves our fitness for any activity, the essence of productivity lies far beyond the small adjustments to our daily routine. We’ll see how different context shapes the meaning of productivity, why we procrastinate, and finally point to the conditions required to unleash the genuine productive momentum and the will for creation.
 
 ## A crash course in history
@@ -29,7 +29,7 @@ Humanity has come a long way since. Some parts of the world today live in relati
 As obvious by now, the meaning of productivity is inseparable from the ever-changing context. Today the incentive doesn’t come from nature anymore. It doesn’t even come from the real needs of humanity either – we produce more than enough for everybody, but dominantly from the aspiration for endless economic growth that is engraved at the core of capitalism.
 
 <div class="fr ml4 nr5-m w-50">
-  <img src="{% link /assets/productivity-mammon.jpg %}" style="mix-blend-mode: multiply;">
+  <img src="{% link /assets/productivity-mammon.jpg %}" alt="mammon grabbing gold" style="mix-blend-mode: multiply;">
   <p class="f6 i tc"><a href="https://en.wikipedia.org/wiki/Mammon">Mammon</a> from Collin de Plancy’s <a href="https://en.wikipedia.org/wiki/Dictionnaire_Infernal">Dictionnaire Infernal</a>, 1863, <a href="https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0455_mammon.jpg">Public domain</a></p>
 </div> Growth happens when we consume stuff. We’ve been persuaded how well we’re doing in life equals how much goods and services we can afford to buy. Additionally, marketing manipulates us to believe we need solutions for things that are not problems. As a response to that, the central life objective of modern humans has become to work hard to earn more, so we can afford more latest iPhones, ski vacations, and kitchen mixers. And when we can’t, we borrow money from the banks. In exchange, banks put a claim on our future labor, and we become bonded to a certain, fairly unfree lifestyle. And that’s the principal engine of modern productivity.
 
