@@ -7,7 +7,7 @@ summary: "Product design as collective effort"
 categories: product design ux process
 ---
 
-<img class="fr ml3 ml4-m nt4 nr5-m mw4 mw5-m w-100" src="{% link /assets/10x-dev-carnival.png %}">
+<img class="fr ml3 ml4-m nt4 nr5-m mw4 mw5-m w-100" src="{% link /assets/10x-dev-carnival.png %}" alt="medieval guardian with a spear">
 In engineering driven organizations design is slightly undervalued almost by nature. Even when it is recognized as important, I’ve witnessed many times how difficult it is to achieve excellence in design when company spirit is rooted in engineering.
 
 Having worked in this environment for most of my career, it made me appreciate developers that have a certain jest for product design, that I could team up with to get the most out of design under the specific circumstances.
