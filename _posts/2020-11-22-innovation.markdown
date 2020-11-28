@@ -23,4 +23,4 @@ The modern PR industry paints a romantic story around successful entrepreneurs, 
 >
 ><cite class="f6 lh-copy dib">— From _The Communist Manifesto_ by Karl Marx, Friedrich Engels</cite>
 
-Unlike popular narrative (that only serves to perpetuate the status quo), a more equal society would bring more innovation, not less. When people worry less about their job, healthcare, rent, and repaying student debt, they can focus more on improving the society they live in for the benefit of all its members.
+Unlike dominant narrative (that only serves to perpetuate the status quo), a more equal society brings more innovation, not less. When people worry less about their job, healthcare, rent, and repaying student debt, they can let their creativity flourish and engage in activities that improve society for the benefit of everybody.
