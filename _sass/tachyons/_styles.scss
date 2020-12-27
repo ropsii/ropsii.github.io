@@ -24,16 +24,12 @@ body {
 
 a {
     color: $link-color;
-    position: relative;
-    border-radius: $border-radius-2;
-    transition: background-color .1s;
-    padding: 0 2px;
-    margin: 0 -2px;
 }
 
 a:hover,
 a:focus {
     background-color: $washed-red;
+    text-decoration: none;
 }
 
 a:active {

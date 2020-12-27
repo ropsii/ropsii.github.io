@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Unexpected Bad Things Will Happen If You Don’t Read This"
+author: "Petar Perovic"
+date:   2020-12-27 10:10:00 +0100
+summary: "How to use friction in interaction design"
+categories: ui design interaction
+image: /assets/cover-friction.png
+---
+
+One of the core ideas of interaction design is to enable users to glide smoothly to their destination with as little friction as possible. To make people experience the software as an extension of their brain, and not something to continually wrestle with and domesticate.
+
+Great products ask nothing from you on the first interaction. They’ll let you in and experiment without requiring anything upfront, not even your email address. Usually, until you need to save something. Hoping that, by that moment, they succeeded at demonstrating their value. That’s how removing obstacles, or only slightly delaying them, creates onboarding experiences that are beneficial for everyone involved.
+
+![Delete repository on GitHub screen](/assets/friction-github_delete.png)
+*This is the exact copy I borrowed from GitHub for the title of this article. When you try to delete a repository, GitHub will force you to correctly type its name, making sure you know what you’re doing.*
+
+However, there are situations where you deliberately want to make interaction less convenient for users’ benefit. When you purposely want to make them stop and think. Typically when they’re about to perform a potentially destructive action or/and an operation that affects other people in the system. For example, to prevent them from accidentally deleting a project shared between many people and forever losing everyone’s important work. That’s where adding friction saves you from shooting yourself in the foot. As a rule of thumb, whenever there’s a potential of users harming themselves — add friction.
+
+Friction is, however, often abused to deliberately confuse and exploit human anxiety when interacting with computers. Airlines’ websites will routinely scare you into buying garbage services you don’t need. Facebook will emotionally manipulate you if you try to erase it from your life. They’ll try to change your mind through the multi-page process where they’ll show you photos of the family and friends you’ll be missing as if they’d all be dead the moment you delete the account. Likewise, it’s widespread for products to complicate subscription cancellation for no reason, foolishly making users even more aggravated. These are all examples of adding friction in bad faith.
+
+Physical world is also full of deliberately added friction, usually to prevent people from making dumb mistakes. Streets around schools slow down traffic with physical obstacles and flashing signals to protect little humans from deadly, fast-moving machines. Modern cars will poke you with annoying noise to fasten your seatbelt, dramatically increasing your chances of survival in case of an accident. Automatic sliding doors remove friction to increase the flow of people in high traffic, commercial buildings. Preventing the formation of queues, but also helping to maintain the temperature of the building. And so on…
+
+At every point of human interaction with digital or physical interfaces, there’s friction. I find it incredibly useful to think about interaction design as adjusting friction, thus controlling the heartbeat of communication between humans and machines.
