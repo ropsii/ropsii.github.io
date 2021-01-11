@@ -25,8 +25,8 @@ We persist in breaking the rules when we use tiny, hard to read font sizes. We a
 
 Mistreating fundamentals increases the cognitive load. Users need an additional couple of seconds when they’re not sure if some text is a link. More while squinting at the thin, light-gray passage of text. And even more to figure out a poorly described feature. And that’s only graphic design. Not to mention the effects of poor interaction on the speed of understanding the UI.
 
-Designers’ duty is not to question the convention, but to repeatedly question how our design aligns with the common understanding. Even though sometimes we like to think about ourselves as rebels who should challenge everything, we must be wise to recognize what’s sacred.
+Designers’ duty is not to question the convention, but to repeatedly question how our design aligns with the common understanding. Even though sometimes we like to think about ourselves as rebels who should challenge everything, we must be wise not to mess up the essentials.
 
 ## Set your fundamentals straight
 
-In software UIs whose principal duty is to explain, guide and act as the extension of human brain, working against the common understanding must be minimal. Browser defaults are carefully configured in line with broadly accepted conventions before we start to tear them apart. That’s not to say you shouldn’t experiment, but the next time you think of replacing those “ugly” blue underlined links for something more elegant, always have in mind that in software — _usable is beautiful_.
+In software UIs whose principal duty is to explain, guide and act as the extension of human brain, working against the common understanding must be minimal. Browser defaults shaped what later become the convention. We should think twice before we start to tear them apart. That’s not to say you shouldn’t experiment, but the next time you think of replacing those “ugly” blue underlined links for something more elegant, always have in mind that in software — _usable is beautiful_.
