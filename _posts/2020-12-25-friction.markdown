@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Unexpected Bad Things Will Happen If You Don’t Read This"
+title:  "Thinking in Friction"
 author: "Petar Perovic"
 date:   2020-12-27 10:10:00 +0100
-summary: "Friction in interaction design"
+summary: "How to adjust the speed of interaction"
 categories: ui design interaction
 image: /assets/cover-friction.png
 ---
