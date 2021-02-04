@@ -21,7 +21,7 @@ So, what is a signal? In broadest sense – all elements on the page compete for
 
 Yet, design is equally an effort to make things uniform and that often results in excessive intervention. We make links hard to identify or choose color so poorly that contrast drops way below comfortable. This hurts our communication with the computer.
 
-We persist in breaking the rules when we use tiny, hard to read font sizes. We abuse font weight just as much. Too thin fonts in longform are painful to read, yet designers insist  it’s beautiful. Even Google, a company that arguably hires the best people in the world, at the time of writing this uses `font-weight:300;` for body copy on their official blog. That’s hardly a bearable reading experience even on the retina display, and good luck reading that on an average cheap monitor.
+We persist in breaking the rules when we use tiny, hard to read font sizes. We abuse font weight just as much. Too thin fonts in longform are painful to read, yet designers insist  it’s beautiful. Even Google, a company that arguably hires the best in the business, at the time of writing this uses `font-weight:300;` for body copy on their official blog. That’s hardly a bearable reading experience even on the retina display, and good luck reading that on an average cheap monitor.
 
 Mistreating fundamentals increases the cognitive load. Users need an additional couple of seconds when they’re not sure if some text is a link. More while squinting at the thin, light-gray passage of text. And even more to figure out a poorly described feature. And that’s only graphic design. Not to mention the effects of poor interaction on the speed of understanding the UI.
 
