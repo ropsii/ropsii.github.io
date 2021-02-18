@@ -1,7 +1,7 @@
 
 // Converted Variables
 
-$sans-serif: 'Fira Sans', sans-serif;
+$sans-serif: inter,'Fira Sans', sans-serif;
 $serif: georgia, serif !default;
 $code: Menlo, Consolas, monospace !default;
 $font-size-headline: 5rem !default;
@@ -64,7 +64,7 @@ $border-width-3: .5rem !default;
 $border-width-4: 1rem !default;
 $border-width-5: 2rem !default;
 $box-shadow-1: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-$box-shadow-2: 0px 0px 0px 1px rgba(0,0,0,0.08), 0px 16px 40px 0 rgba(167,140,113,1) !default;
+$box-shadow-2: 0px 0px 0px 1px rgba(0,0,0,0.08), 0px 16px 40px 0 rgba(0,0,0,0.4) !default;
 $box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ) !default;
 $box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
 $box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
@@ -118,7 +118,7 @@ $hot-pink: #ff41b4 !default;
 $pink: #ff80cc !default;
 $light-pink: #ffa3d7 !default;
 $dark-green: #008050 !default;
-$green: #01c37c !default;
+$green: #00a569 !default;
 $light-green: #9eebcf !default;
 $navy: #001b44 !default;
 $dark-blue: #02067b !default;
@@ -131,7 +131,7 @@ $washed-yellow: #fffceb !default;
 $washed-red: #fdd9cc !default;
 
 $link-color: $dark-blue;
-$background-color: #fff7ea;
+$background-color: #fff;
 
 // Custom Media Query Variables
 

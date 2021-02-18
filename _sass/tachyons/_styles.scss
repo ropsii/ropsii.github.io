@@ -29,8 +29,7 @@ a {
 
 a:hover,
 a:focus {
-    background-color: #fff29a;
-    box-shadow: 0 0 12px 4px #fff29a;
+    background-color: $light-yellow;
     text-decoration: none;
     border-bottom: 1px solid;
 }
@@ -158,9 +157,4 @@ a.footnote:focus {
 
 .footnotes p {
     margin-bottom: .25em;
-}
-
-.highlight {
-    background-color: #fff29a;
-    box-shadow: 0 0 12px 4px #fff29a;
 }
