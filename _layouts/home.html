@@ -3,52 +3,31 @@
 
   {%- include head.html -%}
 
-    <div class="mw8 center pt3 pt4-m ph5-m">
+    <div class="pt3 pt4-m pl5-m">
+        {%- if site.posts.size > 0 -%}
+            <h2 class="f2 f1-m normal lh-title mb2">Words</h2>
+            <p class="f5 f4-m mb4 measure-m">
+                Reflections about design, software, how systems relate to each other and how they impact the society.
+            </p>
 
-        <div class="flex-m">
-            <div class="w-50-m pr4-m ph4-l pb3 mb3 pb0-m mb0-m bb bb-0-m bw1">
-                <img src="{% link /assets/pp.jpg %}" width="256" height="256" alt="Petar Perovic portrait" class="db mb4 br4 w-100 mw5" style="transform: rotate(-3deg);">
-
-                <div class="f5 f4-m">
-                    <p class="measure-narrow-m mb3">Hello. I’m Petar Perović. I run product design and help with strategy at <a href="https://semaphoreci.com">Semaphore</a>, a tool for developers.</p>
-
-                    <p class="measure-narrow-m mb3">My expertise is in design and production of software that is useful, accessible, ethical and meaningful.</p>
-
-                    <p class="mb3">
-                        <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#101;&#114;&#111;&#118;&#105;&#99;&#46;&#112;&#101;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#69;&#109;&#97;&#105;&#108;</a>
-                        ✳
-                        <a href="https://twitter.com/ropsii">Twitter</a>
-                    </p>
-
+            <div>
+                {%- for post in site.posts -%}
+                <div class="mb3 pb1">
+                    <h3 class="f5 f4-m normal mb0">
+                        <a href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}</a><span class="f6"> · {{ post.date | date: "%b %Y" }}</span>
+                    </h3>
+                    <p class="f5 f4-m measure-m mb0">
+                        {{ post.summary }}</p>
                 </div>
-
-                <p class="dn di-m f6 mt3 mt4-m mb0">This website doesn’t track or collect any data. It’s running on <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://tachyons.io/">Tachyons</a>. It’s hosted on GitHub, and <a href="https://www.netlify.com/">Netlify</a> helps with deployment. Type is set in <a href="https://en.wikipedia.org/wiki/Fira_(typeface)">Fira Sans</a> by Erik Spiekermann et al.</p>
-
+                {%- endfor -%}
             </div>
-            <div class="w-50-m pl4-m ph4-l bl-m bw1">
+        {%- endif -%}
+    </div>
 
-                {%- if site.posts.size > 0 -%}
-                    <h2 class="f2 f1-m normal lh-title mb2">Words</h2>
-                    <p class="f5 f4-m mb4 measure-narrow-m">
-                        Reflections about design, software, how systems relate to each other and how they impact the society.
-                    </p>
+    <p class="f6 measure-wide mt4 pl5-m">
+        This website doesn’t track or collect any data. It’s running on <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://tachyons.io/">Tachyons</a>. It’s hosted on GitHub, and <a href="https://www.netlify.com/">Netlify</a> helps with deployment. Type is set in <a href="https://en.wikipedia.org/wiki/Fira_(typeface)">Fira Sans</a> by Erik Spiekermann et al.
+    </p>
 
-                    <div>
-                        {%- for post in site.posts -%}
-                        <div class="mb3">
-                            <h3 class="f5 f4-m normal mb0">
-                                <a href="{{ post.url | relative_url }}">
-                                    {{ post.title | escape }}
-                                </a>
-                            </h3>
-                            <p class="f5 f4-m measure mb0">
-                                <span class="f6">{{ post.date | date: "%b %Y" }} ✳ </span>
-                                {{ post.summary }}</p>
-                        </div>
-                        {%- endfor -%}
-                    </div>
-                {%- endif -%}
-            </div>
-        </div>
 
 {%- include footer.html -%}

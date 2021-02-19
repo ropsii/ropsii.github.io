@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     {%- feed_meta -%}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@475&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450&display=swap" rel="stylesheet">
 
     <!-- Twitter cards -->
     <meta name="twitter:site"    content="@{{ site.twitter_username }}">
@@ -35,6 +35,22 @@
     <!-- end of Twitter cards -->
 </head>
 
-<body class="ph3 pb4 pb6-m">
+<body class="ph3 ph4-m pb4 pb6-m">
 
-    <div>
+    <div class="bb bw1 pv3">
+        <div class="flex-ns items-center">
+            <div class="flex-shrink-0 mr3">
+                <a href="{{ "/" | relative_url }}">
+                    <img src="{% link /assets/pp.jpg %}" width="48" height="48" alt="Petar Perovic portrait" class="db br-100">
+                </a>
+            </div>
+            <div class="flex-auto mt3 mt0-ns">
+                <p class="mb0">
+                    Petar Perović ✳ Product Designer
+                </p>
+                <p class="mb0">Reach out via <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#101;&#114;&#111;&#118;&#105;&#99;&#46;&#112;&#101;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#69;&#109;&#97;&#105;&#108;</a>
+                    and
+                    <a href="https://twitter.com/ropsii">Twitter</a></p>
+            </div>
+        </div>
+    </div>

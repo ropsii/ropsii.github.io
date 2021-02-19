@@ -3,14 +3,11 @@
 
 {%- include head.html -%}
 
-    <div class="measure-wide center pt3 pt4-m">
+    <div class="measure-wide pt3 pt4-m pl5-m">
 
         <article itemscope itemtype="http://schema.org/BlogPosting">
 
             <div>
-                <p class="f5 f4-m mb2">
-                    <a rel="author" href="{{ "/" | relative_url }}">Petar Perović</a> /
-                </p>
                 <h1 class="f2 f1-m normal lh-title mt0 mb2" itemprop="name headline">{{ page.title | escape }}</h1>
                 <p class="f6 mb3">
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -40,5 +37,6 @@
 
             <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
         </article>
+    </div>
 
 {%- include footer.html -%}
