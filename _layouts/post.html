@@ -15,12 +15,7 @@
                         {{ page.date | date: date_format }}
                     </time>
                     ·
-                    {% assign words = content | number_of_words %}
-                    {% if words < 360 %}
-                    1 min.
-                    {% else %}
-                    {{ words | divided_by:180 }} min.
-                    {% endif %} read
+                    {% include reading-time.html content=content %}
                 </p>
                 <div class="f5 f4-m post-content" itemprop="articleBody">
                     {{ content }}
