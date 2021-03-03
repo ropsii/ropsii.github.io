@@ -12,7 +12,7 @@
 
             <div>
                 {%- for post in site.posts -%}
-                <div class="mb3">
+                <div class="mb2 pb1">
                     <h3 class="f5 f4-m normal mb0">
                         <a href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}</a><span class="f6"> ✳ {{ post.date | date: "%b %Y" }}, {% include reading-time.html content=post.content %}</span>
