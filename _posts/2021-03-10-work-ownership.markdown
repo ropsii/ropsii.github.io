@@ -2,7 +2,7 @@
 layout: post
 title:  "Who Owns Your Design?"
 author: "Petar Perovic"
-date:   2021-01-02 10:10:00 +0100
+date:   2021-03-15 10:10:00 +0100
 summary: "Everything is built on top of something"
 categories: design creativity innovation work ownership
 image: /assets/cover-work-ownership.png
