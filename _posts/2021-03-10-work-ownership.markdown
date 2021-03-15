@@ -8,7 +8,7 @@ categories: design creativity innovation work ownership
 image: /assets/cover-work-ownership.png
 ---
 
-I was lucky to be in command of complex product redesigns several times in my career. I had many attempts during my agency days and later a couple of more sophisticated efforts with [ActiveCollab](https://activecollab.com/) and [Semaphore CI](https://semaphoreci.com/). My contributions spread across all levels: Recreating everything from the structure, behavior, and interaction to the visual design. Up from high-level structural work down to details and finish.
+I was lucky to be in command of complex product redesigns many times in my career. I was well-drilled with clients in my agency days to qualify for more sophisticated efforts with [ActiveCollab](https://activecollab.com/) and [Semaphore CI](https://semaphoreci.com/). My contributions spread across all levels: Recreating everything from the structure, behavior, and interaction to the visual design. Up from high-level structural work down to details and finish.
 
 Sometimes there were brand elements I could use, such as colors or typography. But more often than not, it was a grind from a blank slate. Decide what layout fits the content. Determine how to navigate between the pages. Design forms look and feel. Errors and notifications. Dozens of delicate typographic decisions. Rewrite the copy over and over. Compose a system of icons. Decide if this thing works better in a modal or an inline dialog. And this other in tabs or accordion. Is there enough contrast? How to animate this transition. And so on. A gazillion decisions to make. Eternally zoom in and out, trying to spot patterns, inconsistencies, and new ways to group things in buckets that make sense. It’s tough.
 
