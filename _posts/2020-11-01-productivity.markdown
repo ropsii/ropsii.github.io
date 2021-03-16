@@ -24,7 +24,7 @@ Over several centuries we moved from the feudal mode of production to industrial
 
 ## The modern productivity
 
-Humanity has come a long way since. Depending on how we define it, some parts of the world today live in relative freedom. But the core relationship between different classes still remain. Employees today live under the same anxiety about productivity, imposed through the expectations of their employers, and more generally speaking through the economic and social environment we live in.
+We came a long way since. Depending on how we define it, some parts of the world today live in relative freedom. But the core relationship between different classes still remain. Employees today live under the same anxiety about productivity, imposed through the expectations of their employers, and more generally speaking through the economic and social environment we live in.
 
 As obvious by now, the meaning of productivity is inseparable from the ever-changing context. Today the incentive doesn’t come from nature anymore. It doesn’t even come from the real needs of humanity either – we produce more than enough for everybody, but dominantly from the aspiration for endless economic growth that is engraved at the core of capitalism.
 
