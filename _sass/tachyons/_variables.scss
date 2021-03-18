@@ -128,10 +128,10 @@ $lightest-blue: #cdecff !default;
 $washed-blue: #f6fffe !default;
 $washed-green: #e8fdf5 !default;
 $washed-yellow: #fffceb !default;
-$washed-red: #fdd9cc !default;
+$washed-red: #ffeae2 !default;
 
-$link-color: $dark-blue;
-$background-color: white;
+$link-color: $red;
+$background-color: $washed-red;
 
 // Custom Media Query Variables
 

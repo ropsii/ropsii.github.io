@@ -21,7 +21,7 @@ Yet, design is equally an effort to make things uniform and that often results i
 
 We persist in breaking the rules when we use tiny, hard to read font sizes. We abuse font weight just as much. Thin fonts in longform are painful to read, yet designers insist it’s beautiful. Even Google, a company that arguably hires the best people in the business, at the time of writing this uses `font-weight:300;` for body copy on their official blog. That’s hardly a bearable reading experience on the retina display, and good luck enjoying that on an average cheap monitor. It’s not that their balance sheet will suffer because of this, but setting a bad example with their size and influence is giving everyone else a green light to ship bad design.
 
-<img width="560" src="{% link /assets/usable-is-beautiful_google_blog.png %}" alt="Google Blog Longform Text">
+<img width="616" src="{% link /assets/usable-is-beautiful_google_blog.png %}" alt="Google Blog Longform Text">
 *Top: Actual screenshot from [Google’s Blog](https://blog.google/products/earth/most-stunning-images-from-google-earth/) set in font-weight: 300.<br> Bottom: Same text set in font-weight: 400 for comparison.<br> Which one takes less effort to read?*
 
 Mistreating fundamentals increases the cognitive load. Users need an additional couple of seconds when they’re not sure if some text is a link. More while squinting at the thin, light-gray passage of text. And even more to figure out a poorly described feature. And that’s only graphic design. Not to mention the effects of poor interaction on the speed of understanding the UI.
