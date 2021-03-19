@@ -18,7 +18,7 @@ For the most part, our designs consist of typography. We combine and tweak fonts
 
 When a designer joins Google today, they don’t need to decide how select-box should look and feel. They don’t experiment with new typefaces and colors every time they start a new project. It’s all there in [the book](https://material.io/). While I imagine this can sometimes feel uncomfortably constrained, it still allows for creative output, only within a limited spectrum of acceptable solutions. Having such a well-built design system makes designers’ life a walk in the park. They contribute on top of the two-decades-long evolution and understanding of design at Google.
 
-Let’s drag this logic even further. iPhone exists not only thanks to Apple but also owning to ancient thinkers’ efforts to understand electricity. Their discoveries paved the way for modern physicians. It exists thanks to researchers at universities, advancements in telecommunications, and hundreds of other industries. Each of its components is the innovative work of people you’ll never hear mentioned in the Keynotes.
+Let’s drag this logic even further. iPhone exists not only thanks to Apple but also owning to ancient thinkers’ efforts to understand electricity. Their discoveries paved the way for modern physicists. It exists thanks to researchers at universities, advancements in telecommunications, and hundreds of other industries. Each of its components is the innovative work of people you’ll never hear mentioned in the Keynotes.
 
 Everything is built on top of something. Remarkable innovators are “just” excellent at combining other people’s work in surprising ways. Sufficient to make a creation distant enough from its building blocks, so it feels original and unique.
 
