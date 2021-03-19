@@ -13,7 +13,7 @@
             <div>
                 {%- for post in site.posts -%}
                 <div class="flex items-baseline mb2" style="margin-bottom: 10px">
-                    <span class="f7 mr3 tr" style="min-width: 80px;">{{ post.date | date: "%b %Y" }}</span> <h3 class="f5 f4-m normal mb0">
+                    <span class="f7 mr3 tr" style="min-width: 64px;">{{ post.date | date: "%b %Y" }}</span> <h3 class="f5 f4-m normal mb0">
                         <a href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}</a><span class="f7"> ✳ {% include reading-time.html content=post.content %}</span>
                     </h3>
