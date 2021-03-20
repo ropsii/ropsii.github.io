@@ -6,16 +6,16 @@
     <div class="pt3 pt4-m pl5-m">
         {%- if site.posts.size > 0 -%}
             <h2 class="f2 f1-m normal lh-title mb2">Words</h2>
-            <p class="f5 mb4 measure-narrow-m">
+            <p class="f4 mb4 measure-narrow-m">
                 Thoughts about design, software, how systems relate to each other and how they impact the society
             </p>
 
             <div>
                 {%- for post in site.posts -%}
-                <div class="flex items-baseline mb2" style="margin-bottom: 10px">
-                    <span class="f7 mr3 tr" style="min-width: 64px;">{{ post.date | date: "%b %Y" }}</span> <h3 class="f5 f4-m normal mb0">
+                <div class="flex items-baseline" style="margin-bottom: 10px">
+                    <span class="f7 mr3 tr" style="min-width: 96px;">{{ post.date | date: "%b %-d, %Y" }}</span> <h3 class="f4 normal mb0">
                         <a href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}</a><span class="f7 ml1">{% include reading-time.html content=post.content %}</span>
+                            {{ post.title | escape }}</a><span class="f7 ml2">{% include reading-time.html content=post.content %}</span>
                     </h3>
                     <p class="dn f5 f4-m measure-m mb0">
                         {{ post.summary }}</p>
