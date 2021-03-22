@@ -31,11 +31,16 @@ a:active {
 }
 
 hr {
-    height: 2px;
-    width: 60px;
+    height: 64px;
     border: 0;
-    background: $dark-gray;
-    margin: 2rem auto !important;
+    position: relative;
+}
+
+hr::before {
+    content: "* * *";
+    position: absolute;
+    top: 40%;
+    left: 48%;
 }
 
 
@@ -59,7 +64,7 @@ pre,table,fieldset,hr {
 }
 
 img + em {
-    font-size: $font-size-6;
+    font-size: $font-size-7;
     display: block;
     text-align: center;
 }
@@ -84,7 +89,7 @@ img + em {
     border-left: 2px solid $link-color;
     padding-left: 2rem;
     margin-left: 0;
-    font-size: 120%;
+    font-size: 150%;
     position: relative;
 }
 
@@ -110,10 +115,11 @@ img + em {
     font-style: italic;
     position: absolute;
     right: 8px;
-    top: -12px;
-    font-size: $font-size-5;
-    background-color: $background-color;
+    top: -16px;
+    font-size: $font-size-6;
+    background-color: #fff;
     padding: 0 8px;
+    border: 2px solid;
 }
 
 a.footnote {
@@ -138,13 +144,13 @@ a.footnote:focus {
 }
 
 .footnotes {
-    font-size: $font-size-6;
+    font-size: $font-size-7;
 }
 
 .footnotes ol {
-    border-top: 2px solid;
     padding-top: 1em;
     padding-left: 1em;
+    margin-bottom: 0;
 }
 
 .footnotes p {

@@ -11,7 +11,7 @@ image: /assets/cover-innovation.png
 Unlike popular belief, innovation is far from a miracle, a moment of brilliance, or a unique event in the life of the innovator. It’s the result of a long, immersive process and a deep interest in the matter. But more importantly, it’s a consequence of belonging in the environment that enables innovation. Eagerness and intellectual curiosity are important, but not as critical as sufficient material conditions. The absence of a safety net discourages the natural human urge to play, experiment and take risks.
 
 <img src="{% link /assets/innovation-fish.jpg %}" alt="three catfish with human head swimming right" class="db center" style="mix-blend-mode: multiply;">
-  <p class="f6 i tc nt2">Zakariya al-Qazwini, “Marvels of Things Created and Miraculous Aspects of Things Existing”, 13th-century, <a href="https://publicdomainreview.org/collection/marvels-of-things-created-and-miraculous-aspects-of-things-existing">Public domain</a></p>
+  <p class="f7 i tc nt2">Zakariya al-Qazwini, “Marvels of Things Created and Miraculous Aspects of Things Existing”, 13th-century, <a href="https://publicdomainreview.org/collection/marvels-of-things-created-and-miraculous-aspects-of-things-existing">Public domain</a></p>
 
 A safety net is about having somewhere to fall back to if you fail. People are more likely to experiment and to take risks if they have savings or family support. They are more enthusiastic when they own a place to live and not stress about the monthly payment to a bank or their landlord. Having a diploma from a reputable university gives them more courage, given that they can still land a decent job in case things don’t go as planned. And so on, and so forth…
 
@@ -21,6 +21,6 @@ The modern PR industry paints a romantic story around successful entrepreneurs, 
 
 >_…man's ideas, views and conceptions, in one word, man's consciousness, changes with every change in the conditions of his material existence, in his social relations and in his social life._
 >
-><cite class="f6 lh-copy dib">— From _The Communist Manifesto_ by Karl Marx, Friedrich Engels</cite>
+><cite class="f7 lh-copy dib">— From _The Communist Manifesto_ by Karl Marx, Friedrich Engels</cite>
 
 Unlike dominant narrative (that only serves to perpetuate the status quo), a more equal society brings more innovation, not less. When people worry less about their job, healthcare, rent, and repaying student debt, they can let their creativity flourish and engage in activities that improve society for the benefit of everybody.

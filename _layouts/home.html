@@ -6,28 +6,53 @@
     <div class="pt3 pt4-m pl5-m">
         {%- if site.posts.size > 0 -%}
             <h2 class="f2 f1-m normal lh-title mb2">Words</h2>
-            <p class="f4 mb4 measure-narrow-m">
-                Thoughts about design, software, how systems relate to each other and how they impact the society
+            <p class="f5 mb4 measure-m pr5-m">
+                On design, making software, how systems relate to each other and how they impact the society. With casual sprinkles of basketball.
             </p>
 
             <div>
+                <table class="collapse f5 bb bl br bw1 b--near-black w-100">
+                    <thead>
+                        <tr class="bg-white">
+                            <th class="dn dtc-m f7 fw4 tr ph3 pv2 bt bw1">Date</th>
+                            <th class="dn dtc-m f7 fw4 tl ph3 pv2 bt bw1">Title</th>
+                            <th class="dn dtc-l f7 fw4 tl ph3 pv2 bt bw1">Reading Time</th>
+                        </tr>
+                    </thead>
                 {%- for post in site.posts -%}
-                <div class="flex items-baseline" style="margin-bottom: 10px">
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="dn dtc-m v-base ph3 pv2 bt bw1 tr f7">
+                                {{ post.date | date: "%b %-d, %Y" }}
+                            </td>
+                            <td class="v-base ph3 pt3 bt bw1">
+                                <div class="overflow-y-hidden nr3" style="max-height: 248px; margin-bottom: -1px">
+                                    <div class="f4 pv1"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+                                    <div class="f5 pb2 measure-wide pr3">
+                                        {{ post.excerpt }}
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="dn dtc-l v-base ph3 pv2 bt bw1 f7">
+                                {% include reading-time.html content=post.content %}
+                            </td>
+                        </tr>
+                    </tbody>
+                <div class="dn flex items-baseline" style="margin-bottom: 10px">
                     <span class="f7 mr3 tr" style="min-width: 96px;">{{ post.date | date: "%b %-d, %Y" }}</span> <h3 class="f4 normal mb0">
                         <a href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}</a><span class="f7 ml2">{% include reading-time.html content=post.content %}</span>
+                            <p class="f5 f4-m measure-m mb0">{{ post.summary }}</p>
                     </h3>
-                    <p class="dn f5 f4-m measure-m mb0">
-                        {{ post.summary }}</p>
                 </div>
                 {%- endfor -%}
+            </table>
+
             </div>
         {%- endif -%}
     </div>
 
-    <p class="f7 measure-wide mt4 pl5-m">
-        This website doesn’t track or collect any data. It’s running on <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://tachyons.io/">Tachyons</a>. It’s hosted on <a href="https://github.com/ropsii/ropsii.github.io">GitHub</a>, and <a href="https://www.netlify.com/">Netlify</a> helps with deployment. Type is set in Chivo by Héctor Gatti of <a href="https://www.omnibus-type.com/">Omnibus Type</a>.
-    </p>
+    {%- include colophon.html -%}
 
 
 {%- include footer.html -%}
