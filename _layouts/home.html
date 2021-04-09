@@ -5,49 +5,33 @@
 
     <div class="pt3 pt4-m pl5-m">
         {%- if site.posts.size > 0 -%}
-            <h2 class="f2 f1-m normal lh-title mb2">Words</h2>
-            <p class="f5 mb4 measure-m pr5-m">
-                On design, making software, how systems relate to each other and how they impact the society. With casual sprinkles of basketball ✳ <a href="{{ "/feed.xml" | relative_url }}" class="f6 bg-white-60 hover-bg-white ph2 br3 ba b--black-50 link dark-gray">Subscribe</a>
+            <p class="f5 mb4 measure-m">
+                Thoughts on design, making software, how systems relate to each other and how they impact the society. With casual sprinkles of basketball ✳ <a href="{{ "/feed.xml" | relative_url }}" class="f6 bg-white hover-bg-white-70 ph2 br3 ba b--black-50 link dark-gray">Subscribe</a>
             </p>
 
-            <div>
-                <table class="collapse f5 bb bl br bw1 b--near-black w-100">
-                    <thead>
-                        <tr class="bg-white">
-                            <th class="dn dtc-m f7 fw4 tr ph3 pv2 bt bw1">Date</th>
-                            <th class="dn dtc-m f7 fw4 tl ph3 pv2 bt bw1">Title</th>
-                            <th class="dn dtc-l f7 fw4 tl ph3 pv2 bt bw1">Reading Time</th>
-                        </tr>
-                    </thead>
+            <div class="f5 bb bl br bw1 b--near-black">
                 {%- for post in site.posts -%}
-                    <tbody>
-                        <tr class="bg-white">
-                            <td class="dn dtc-m v-base ph3 pv2 bt bw1 tr f7">
-                                {{ post.date | date: "%b %-d, %Y" }}
-                            </td>
-                            <td class="v-base ph3 pt3 bt bw1">
-                                <div class="overflow-y-hidden nr3" style="max-height: 248px; margin-bottom: -1px">
-                                    <div class="f4 pv1"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
-                                    <div class="f5 pb2 measure-wide pr3">
-                                        {{ post.excerpt }}
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="dn dtc-l v-base ph3 pv2 bt bw1 f7">
-                                {% include reading-time.html content=post.content %}
-                            </td>
-                        </tr>
-                    </tbody>
-                <div class="dn flex items-baseline" style="margin-bottom: 10px">
-                    <span class="f7 mr3 tr" style="min-width: 96px;">{{ post.date | date: "%b %-d, %Y" }}</span> <h3 class="f4 normal mb0">
-                        <a href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}</a><span class="f7 ml2">{% include reading-time.html content=post.content %}</span>
-                            <p class="f5 f4-m measure-m mb0">{{ post.summary }}</p>
-                    </h3>
+                <div class="flex-l bg-white hover-bg-light-yellow bt bw1">
+                    <div class="w5-l ph3 pt3 tr f7">
+                        <div class="mt1-l">
+                            {{ post.date | date: "%b %-d, %Y" }}
+                        </div>
+                    </div>
+                    <div class="w-100 ph3 pt3-l">
+                        <div class="overflow-y-hidden nr3 mb0" style="max-height: 180px;">
+                            <h3 class="f5 mb2"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                            <div class="home-excerpt f5 measure-wide pr3">
+                                {{ post.excerpt }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w5 dn db-l ph3 pt3 f7">
+                        <div class="mt1-l">
+                            {% include reading-time.html content=post.content %}
+                        </div>
+                    </div>
                 </div>
                 {%- endfor -%}
-            </table>
-
             </div>
         {%- endif -%}
     </div>

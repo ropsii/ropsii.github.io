@@ -26,9 +26,14 @@ a {
     color: $link-color;
 }
 
-a:active {
-    top: 1px;
-}
+// a:active,
+// a:focus {
+//     outline: none;
+//     background-color: $yellow;
+//     color: $dark-gray;
+//     box-shadow: 0 -2px $yellow, 0 1px $dark-gray;
+//     text-decoration: none;
+// }
 
 hr {
     height: 64px;
@@ -59,7 +64,6 @@ pre,table,fieldset,hr {
 .post-content h2 {
     font-size: $font-size-4;
     border-bottom: 2px solid;
-    font-weight: 400;
     padding-bottom: 4px;
 }
 
@@ -129,7 +133,7 @@ a.footnote {
     justify-content: center;
     align-items: center;
     line-height: 1;
-    color: $background-color;
+    color: #fff;
     background-color: $link-color;
     width: 20px;
     height: 16px;
@@ -157,3 +161,6 @@ a.footnote:focus {
     margin-bottom: .25em;
 }
 
+.home-excerpt p img {
+    mix-blend-mode: multiply;
+}

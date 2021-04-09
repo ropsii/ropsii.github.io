@@ -4,59 +4,54 @@
 {%- include head.html -%}
 
     <div class="pl5-m">
-        <table class="collapse w-100 bg-white bl br bb b--near-black bw1">
+        <div class="bl br bb bw1">
 
             <article itemscope itemtype="http://schema.org/BlogPosting">
 
-                <thead>
-                    <tr>
-                        <th class="dn dtc-l w-25 f7 fw4 tr bb bw1 pv2">
-
-                        </th>
-                        <th class="w-75-l f7 fw4 tl bb bw1 pv2 pl3">
+                <div class="bg-white bb bw1 pv2 ph3">
+                    <div class="measure-wide center">
+                        <span class="f7 ph2-m">
                             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                                 {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                                 {{ page.date | date: date_format }}
                             </time> ✳
                             {% include reading-time.html content=content %}
-                        </th>
-                    </tr>
-                </thead>
+                        </span>
+                    </div>
+                </div>
 
-                <tbody>
-                    <tr>
-                        <td class="dn dtc-l w-25"></td>
-                        <td class="w-75-l ph3 pv3 pv4-m">
-                            <div class="overflow-x-hidden nr3">
-                                <div class="measure-wide pr3">
-                                    <h1 class="f2 f1-m normal lh-title mt0 mb3 pb2-m" itemprop="name headline">{{ page.title | escape }}</h1>
-                                    <div class="f5 f4-m post-content" itemprop="articleBody">
-                                        {{ content }}
-                                    </div>
+                <div class="bg-white bb bw1 ph3 pt3 pv4-l">
+                    <div class="overflow-x-hidden nr3">
+                        <div class="measure-wide center">
+                            <div class="pr3">
+                                <h1 class="f2 lh-title mt0 mb3 pb2" itemprop="name headline">{{ page.title | escape }}</h1>
+                                <div class="f5 f4-m post-content" itemprop="articleBody">
+                                    {{ content }}
                                 </div>
                             </div>
-                        </td>
-                    </tr>
-                </tbody>
+                        </div>
+                    </div>
+                </div>
 
-                <tfoot>
-                    <tr>
-                        <td class="dn dtc-l w-25 f7 bt bw1 pv3 tr">
-                            <div style="margin: 3px 0">Comments</div>
-                            <div style="margin: 3px 0">Read more</div>
-                            <div style="margin: 3px 0">Stay in the loop</div>
-                        </td>
-                        <td class="w-75-l f7 ph3 bt bw1 pv2 pv3-m">
+                <div class="bg-white pa3">
+                    <div class="measure-wide center">
+                        <div class="f7 ph2-m relative">
+                            <div class="dn db-l absolute tr" style="left: -112px; top: -4px">
+                                <div class="b" style="margin: 3px 0">Comments</div>
+                                <div class="b" style="margin: 3px 0">Read more</div>
+                                <div class="b" style="margin: 3px 0">Stay in the loop</div>
+                            </div>
+
                             <div style="margin: 3px 0">Mention <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter, or send me an <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#101;&#114;&#111;&#118;&#105;&#99;&#46;&#112;&#101;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#69;&#109;&#97;&#105;&#108;</a> with your opinion</div>
                             <div style="margin: 3px 0">See <a href="{{ "/" | relative_url }}">All Articles</a> listed on the homepage</div>
                             <div style="margin: 3px 0">Grab <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a> or <a href="https://twitter.com/ropsii">Follow Me</a> on Twitter</div>
-                        </td>
-                    </tr>
-                </tfoot>
+                        </div>
+                    </div>
+                </div>
 
                 <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
             </article>
-        </table>
+        </div>
     </div>
 
     {%- include colophon.html -%}

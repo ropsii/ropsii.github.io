@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+    <div class="pt3 pt4-m pl5-m">
+
+        <h2 class="f2 f1-m normal lh-title mb2">Work</h2>
+        <p class="f5 mb4 mw6">
+            I’m a generalist, working in all phases of the product cycle, from strategy and discovery, to production and shipping features. My interest is in building software that is ethical, meaningful, accessible and usable.
+        </p>
+
+        <div class="ba bw1 mb3">
+            <div class="bg-white bb bw1 pa3 pa4-m">
+                <h3 class="dib f7 fw4">Product Experience</h3>
+
+                <ul class="f5 pl4 mt1 ml0">
+                    <li class="mv1">Principal Product Designer at <a href="https://semaphoreci.com">Semaphore CI</a> <span class="f7"> ✳ Developer Tools ✳ 2016–21</span></li>
+                    <li class="mv1">Senior Product Designer at <a href="https://hellosuper.com">Super</a><span class="f7"> ✳ Innovative Home Insurance ✳ 2015–16</span></li>
+                    <li class="mv1">Product Design Lead at <a href="https://activecollab.com/">Active Collab</a><span class="f7"> ✳ Project Managment SaaS ✳ 2013–15</span></li>
+                </ul>
+            </div>
+            <div class="bg-white pa3 pa4-m overflow-hidden" style="height: 1000px;">
+                <h3 class="dib f7 fw4">Things I do</h3>
+                <p class="f5 mb4 measure-wide-m pr5-m">
+                    For 5 years, I was a principal designer at Semaphore CI, a tool that helps developers test and deploy their code. I was in command of product design and strategy.
+                </p>
+
+                <div class="tc mv5"><img src="{% link /assets/work-sem-workflow.png %}" alt="Semaphore workflow page" class="br3 shadow-2 w-100" style="max-width: 1150px"></div>
+            </div>
+        </div>
+    </div>
+
+    {%- include colophon.html -%}
+
+{%- include footer.html -%}

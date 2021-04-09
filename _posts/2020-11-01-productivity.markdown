@@ -8,7 +8,7 @@ categories: productivity social
 image: /assets/cover-productivity.png
 ---
 
-<img class="fr ml3 nr5-m" width="180" height="320" src="{% link /assets/productivity-box_man.jpg %}" alt="vintage illustration of a man carrying a box" style="mix-blend-mode: multiply;">
+<img class="fr ml3 nr5" width="180" height="320" src="{% link /assets/productivity-box_man.jpg %}" alt="vintage illustration of a man carrying a box" style="mix-blend-mode: multiply;">
 We’re bombarded daily with tips on how to do more in less time. We hear how the most successful people have this secret thing that makes them super-productive. They tell us getting enough sleep, eating well, and cleverly organizing our time will make us better at our job. While a fresh mind undoubtedly improves our fitness for any activity, the essence of productivity lies far beyond the small adjustments to our daily routine. We’ll see how different context shapes the meaning of productivity, why we procrastinate, and finally point to the conditions required to unleash the genuine productive momentum and the will for creation.
 
 ## A crash course in history
@@ -40,7 +40,7 @@ In a nutshell, we have a workforce seduced into spending and taking loans, but a
 In everyday life, that situation translates to the countless _to-do_ lists we make, techniques we use to trick ourselves into the focused state of mind, feeling guilt about procrastination, and generally overworking ourselves.
 
 <p class="highlight">
-Productivity is much less of a personal trait, our organizational skills, the amount of sleep we had last night, hydration, diet, and other silver bullets in the spotlight of every mainstream website out there. For the most part, it is dictated by the social and economic environment we live in. It defines everything we truly care about — how meaningful the job is, how respected we are, the relationship with the people we work with, how our job affects our life outside of work, and finally how much freedom and safety it gives us. In simple terms, no amount of good physical well-being and organizational genius will make us genuinely productive on a job that makes us miserable.
+Productivity is much less of a personal trait, our organizational skills, the amount of sleep we had last night, hydration, diet, and other silver bullets in the spotlight of the mainstream narrative. For the most part, it is dictated by the social and economic environment we live in. It defines everything we truly care about — how meaningful the job is, how respected we are, the relationship with the people we work with, how our job affects our life outside of work, and finally how much freedom and safety it gives us. In simple terms, no amount of good physical well-being and organizational genius will make us genuinely productive on a job that makes us miserable.
 </p>
 
 In 1930, famous British economist John Maynard Keynes predicted that by now (“_In a hundred year's time_”) we’d be working 15-hour workweek thanks to the technological progress. He imagined machines and computers would replace human labor in serving the needs of society and allow us to engage in activities that bring us true meaning. And indeed, technology catapulted productive output beyond imaginable. However, most gains went to a tiny group of people, the capital owners, while on average conditions for everybody else remained mostly unchanged.
