@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Becoming a Design Leader"
+title: "Understanding Design Leadership"
 author: "Petar Perovic"
 date: 2021-04-02 10:10:00 +0100
 summary: "---"
