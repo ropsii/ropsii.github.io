@@ -20,7 +20,7 @@ Later through history, our civilization went through slavery and feudalism as fo
 Over several centuries we moved from the feudal mode of production to industrial capitalism. [Dispossessed peasants](https://www.thelandmagazine.org.uk/articles/short-history-enclosure-britain), evicted from their land and suddenly without other means of survival, were forced to move to the factory workforce in the cities. This way the industrialists gained the leverage to [wage enslave](https://en.wikipedia.org/wiki/Wage_slavery) everybody, including children, to work 18-hour shifts, 6 days a week. That is to say — only after you’ve been toiling during every waking hour, your employer would consider you sufficiently productive and reward you with wage. This was widespread until around a century ago when countries around the world slowly started to adopt the [Eight-hour day](https://en.wikipedia.org/wiki/Eight-hour_day) and other worker benefits under the pressure from labor movements. And that’s how we got here.
 
 ![Children glass factory workers](/assets/productivity-Lewis_Hine_Glass_works_1908.jpg)
-*Glass factory workers in Indiana, Photo by Lewis W. Hine, 1908, [Public domain](https://commons.wikimedia.org/wiki/File:Lewis_Hine,_Glass_works,_midnight,_Indiana,_1908.jpg)*
+Glass factory workers in Indiana, Photo by Lewis W. Hine, 1908, [Public domain](https://commons.wikimedia.org/wiki/File:Lewis_Hine,_Glass_works,_midnight,_Indiana,_1908.jpg)
 
 ## The modern productivity
 

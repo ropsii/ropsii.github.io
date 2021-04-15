@@ -1,50 +1,22 @@
 ---
 layout: post
-title: "On Design Leadership"
+title: "Becoming a Design Leader"
 author: "Petar Perovic"
 date: 2021-04-02 10:10:00 +0100
 summary: "---"
 categories: design creativity innovation work ownership
-image: /assets/cover-design-leadership.png
+image:
 ---
 
 <img class="fr ml4 nt3 nr5" width="180" height="429" src="{% link /assets/leadership-queen.jpg %}" alt="Queen illustration">
-What does a design leader do? The exact description of the role varies a lot. It indicates anything from a person operating a design team and mentoring designers, to commanding product, directing visual design, and often even contributing individually. It can be more strategic, more social or more artistic. Or a little bit of everything. In everyday life, leads usually cover several of these, if not all of them. How their routine looks like depends on the internal structure and the size of the organization. In small teams, by nature they do everything. Moving to more complex hierarchies of bigger enterprises, work tends to get more specific and they generally do more strategy and team management than hands-on designing.
+What does a design lead do? How different companies describe this role can vary a lot. It indicates anything from operating a design team and helping shape the product strategy to mentoring designers, directing the visual design, and often contributing individually. It can be more strategic, more operational, or more artistic. Or a little bit of everything. Usually, whatever is necessary to keep the boat afloat.
 
-There’s only a handful of people of extraordinary charisma and talent to inspire others. More often, leaders in our industry are just seasoned professionals who understand well-enough the business, organization and people, and work on removing the friction between them to achieve the common goal. They lead with understanding first, and personality only comes after.
+Their routine depends on the structure and the size of the organization. In small teams, due to their nature, they do everything. In larger enterprises, the hierarchy dictates a more specific division. Hence they engage in more strategic contributions and team direction than hands-on designing.
 
-Understanding comes with experience. You start seeing deeper, get more comfortable with complexity, and gain the knowledge and the ability to spot the intricate bits of work required to ship software. And then you communicate that all the time to everybody you work with. For anyone to listen, you have to be reputable. To have previously been there. If you’re also a likeable person, even better, people will take less effort to get on board with what you’re telling them. And that’s leadership in a nutshell.
+But regardless of the output of their work, the way they think is universal. A leader understands the forces that transform the context in which they operate. When things change, they cause friction within the organization, product, and people. A familiar example is when you design with one set of assumptions, and over time, you add a bunch of new features. At some point, your original solution turns inadequate, and you must redesign it. The leader’s job is to observe and anticipate where and when the friction will emerge and how it will shape the setting. It’s just a deliberate work on understanding the ever-changing context.
 
-Let’s now break down the career path and several different incarnations of design leaders.
+Understanding comes with experience. You start seeing deeper, get more comfortable with complexity, and gain the ability to spot the intricate bits of work required to ship software. With maturity, you become better at interpreting _why_ the company does something. And it is clear to you _how_ design fits into the bigger picture. The entire chain of events now makes more sense.
 
-## The Basics
+Your main job is to think systemically. To figure out how different events in the life of the company and the product interact. To identify the forces that make things improve or worsen. To discover what’s preventing the desired outcomes. Whether it’s how to make the team communicate more efficiently or to identify what’s required to attain a more consistent design across the product. Or how to spread knowledge within the group. You can apply the same line of thinking from strategic questions to the level of individual design decisions.
 
-First and foremost, you gotta have the willingness to do the boring stuff and contribute strategically, instead, for example, to design or write code following someone else’s directions. Once you start recognizing how design fits the bigger picture, what your work means for the users and for the organization, you are one step closer to being a leader.
-
-Some people deliberately stay forever in this stage. They simply
-
-
-Many people, myself included, find a great pleasure in designing, even . Sometimes the internal structure of the organization allows you to continue doing just that, only at a more senior level. Some call it _staff_ or _principal_ designer. Or lead. But leadership comes in many flavors. It doesn’t necessarily imply managing people.
-
-Building software, design needs to find its fit. That’s where a good leader can help. There used to be a lot of talk about the importance of design, getting “the seat at the table”, and such silliness. I feel it has matured. Today there’s better overall understanding of how design fits an organization, as one of its building blocks, no less or more important
-
-
-
-
-I’m in a stage of my career where I make impact at strategic level, but still find a great pleasure in contributing individually. Some companies now have this role for people like me. GitHub calls is _staff_ designer, some other companies have it under _principal_ or _lead_ designer. Bu
-
-
-Mentorship happens at any point of interaction with other people
-
-What a good design leader does?
-- Gets involved in strategy and thinks how design can help
-- Understands the system and breaks down complex projects into simpler tasks
-- Secures conditions for others to flourish
-- Helps unblocking others
-- Delegates work to other people
-
-
-Yet, the role of a design leader vary wildly between different organizations.
-
-For the most of my career I’ve been working in fairly small teams, never more than 30 people. And never more than a handful of other designers around.
-
+When you think systemically, your good sense gets ingrained in your output. No matter if it comes out as an email, document, flowchart, design mockup, or a piece of code. To lead is to understand.

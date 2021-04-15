@@ -65,6 +65,7 @@ pre,table,fieldset,hr {
     font-size: $font-size-4;
     border-bottom: 2px solid;
     padding-bottom: 4px;
+    margin-top: 1.5rem;
 }
 
 img + em {
@@ -90,10 +91,8 @@ img + em {
 }
 
 .post-content blockquote {
-    border-left: 2px solid $link-color;
     padding-left: 2rem;
     margin-left: 0;
-    font-size: 150%;
     position: relative;
 }
 
@@ -115,15 +114,13 @@ img + em {
 }
 
 .post-content .highlight::before {
-    content: "✳ Highlight";
-    font-style: italic;
+    content: "✳";
     position: absolute;
     right: 8px;
-    top: -16px;
-    font-size: $font-size-6;
+    top: -20px;
+    font-size: $font-size-3;
     background-color: #fff;
     padding: 0 8px;
-    border: 2px solid;
 }
 
 a.footnote {
@@ -133,8 +130,8 @@ a.footnote {
     justify-content: center;
     align-items: center;
     line-height: 1;
-    color: #fff;
-    background-color: $link-color;
+    background-color: $black-10;
+    border: 1px solid;
     width: 20px;
     height: 16px;
     text-align: center;
@@ -144,7 +141,7 @@ a.footnote {
 
 a.footnote:hover,
 a.footnote:focus {
-    border: 0;
+    background-color: $background-color;
 }
 
 .footnotes {

@@ -11,7 +11,7 @@
 
             <div class="f5 bb bl br bw1 b--near-black">
                 {%- for post in site.posts -%}
-                <div class="flex-l bg-white hover-bg-light-yellow bt bw1">
+                <a href="{{ post.url | relative_url }}" class="link flex-l bg-white hover-bg-light-yellow bt bw1">
                     <div class="w5-l ph3 pt3 tr f7">
                         <div class="mt1-l">
                             {{ post.date | date: "%b %-d, %Y" }}
@@ -19,7 +19,7 @@
                     </div>
                     <div class="w-100 ph3 pt3-l">
                         <div class="overflow-y-hidden nr3 mb0" style="max-height: 180px;">
-                            <h3 class="f5 mb2"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                            <h3 class="f5 mb2 underline">{{ post.title | escape }}</h3>
                             <div class="home-excerpt f5 measure-wide pr3">
                                 {{ post.excerpt }}
                             </div>
@@ -30,7 +30,7 @@
                             {% include reading-time.html content=post.content %}
                         </div>
                     </div>
-                </div>
+                </a>
                 {%- endfor -%}
             </div>
         {%- endif -%}
