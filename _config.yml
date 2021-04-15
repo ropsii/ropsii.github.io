@@ -21,7 +21,7 @@
 title: Petar Perovic, product designer
 email: perovic.petar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random thoughts about design, software, organization and occasionally about their impact on society.
+  Thoughts on design, making software, how systems relate to each other and how they impact the society. With casual sprinkles of basketball.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://petarperovic.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ropsii
