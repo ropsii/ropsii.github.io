@@ -5,7 +5,7 @@ author: "Petar Perovic"
 date: 2021-04-02 10:10:00 +0100
 summary: "The essential mark for a leader"
 categories: design leadership work thinking context
-image:
+image: /assets/cover-design-leadership.png
 ---
 
 <img class="fr ml4 nt3 nr5" width="180" height="429" src="{% link /assets/leadership-queen.jpg %}" alt="Queen illustration">
