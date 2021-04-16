@@ -3,7 +3,7 @@ layout: post
 title: "Understanding (&) Design Leadership"
 author: "Petar Perovic"
 date: 2021-04-02 10:10:00 +0100
-summary: "The essential mark of a good leader"
+summary: "The essential mark for a leader"
 categories: design leadership work thinking context
 image:
 ---
