@@ -11,7 +11,7 @@
 
             <div class="f5 bb bl br bw1 b--near-black">
                 {%- for post in site.posts -%}
-                <a href="{{ post.url | relative_url }}" class="link flex-l bg-white hover-bg-light-yellow bt bw1">
+                <a href="{{ post.url | relative_url }}" class="link flex flex-column flex-row-l bg-white hover-bg-light-yellow bt bw1">
                     <div class="w5-l ph3 pt3 tr f7">
                         <div class="mt1-l">
                             {{ post.date | date: "%b %-d, %Y" }}
