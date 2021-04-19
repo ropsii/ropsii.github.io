@@ -96,16 +96,6 @@ img + em {
     position: relative;
 }
 
-.post-content blockquote::after {
-    content: "”";
-    position: absolute;
-    top: -.9rem;
-    right: -2.5rem;
-    color: $link-color;
-    font-size: 6rem;
-    line-height: 1;
-}
-
 .post-content .highlight {
     border: 2px solid;
     padding: 16px;

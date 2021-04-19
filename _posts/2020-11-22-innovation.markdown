@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Risk Takers: Fearless or Protected?"
+title:  "Why Don’t You Take More Risks"
 author: "Petar Perovic"
 date:   2020-11-22 10:10:00 +0100
 summary: "What makes some people more entrepreneurial than others?"
