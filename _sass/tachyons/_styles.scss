@@ -24,6 +24,14 @@ body {
 
 a {
     color: $link-color;
+    border-radius: 5px;
+    text-underline-offset: 1px;
+}
+
+a:hover,
+a:focus {
+    background-color: $light-yellow;
+    box-shadow: 0 0 14px 2px $light-yellow;
 }
 
 // a:active,
@@ -63,21 +71,18 @@ pre,table,fieldset,hr {
 
 .post-content h2 {
     font-size: $font-size-4;
-    border-bottom: 2px solid;
-    padding-bottom: 4px;
-    margin-top: 1.5rem;
 }
+
+// @media #{$breakpoint-medium} {
+//     .post-content h2 {
+//         font-size: $font-size-3;
+//     }
+// }
 
 img + em {
     font-size: $font-size-7;
     display: block;
     text-align: center;
-}
-
-@media #{$breakpoint-medium} {
-    .post-content h2 {
-        font-size: $font-size-3;
-    }
 }
 
 .post-content h3 {
@@ -91,10 +96,22 @@ img + em {
 }
 
 .post-content blockquote {
+    font-size: $font-size-5;
     padding-left: 2rem;
     margin-left: 0;
     position: relative;
 }
+
+.post-content table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.post-content table td {
+    border-top: 1px solid $black-10;
+}
+
 
 .post-content .highlight {
     border: 2px solid;
@@ -120,7 +137,6 @@ a.footnote {
     justify-content: center;
     align-items: center;
     line-height: 1;
-    background-color: $black-10;
     border: 1px solid;
     width: 20px;
     height: 16px;

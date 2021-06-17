@@ -9,18 +9,22 @@
                 Thoughts on design, making software, how systems relate to each other and how they impact the society. With casual sprinkles of basketball ✳ <a href="{{ "/feed.xml" | relative_url }}" class="f6 bg-white hover-bg-white-70 ph2 br3 ba b--black-50 link dark-gray">Subscribe</a>
             </p>
 
-            <div class="f5 bb bl br bw1 b--near-black">
+            <div class="f5 bb bl br bw1 b--dark-gray">
                 {%- for post in site.posts -%}
-                <a href="{{ post.url | relative_url }}" class="link flex flex-column flex-row-l bg-white hover-bg-light-yellow bg-animate bt bw1">
+                <div class="flex flex-column flex-row-l bg-white bt b--dark-gray bw1">
                     <div class="w5-l ph3 pt3 tr f7">
                         <div class="mt1-l">
                             {{ post.date | date: "%b %-d, %Y" }}
                         </div>
                     </div>
-                    <div class="w-100 ph3 pt3-l">
-                        <div class="overflow-y-hidden nr3 mb0" style="max-height: 180px;">
-                            <h3 class="f5 mb2 underline">{{ post.title | escape }}</h3>
-                            <div class="home-excerpt f5 measure-wide pr3">
+                    <div class="w-100">
+                        <div class="overflow-y-hidden ph3 pt3-l nr3 mb0" style="max-height: 170px;">
+                            <h3 class="f5 mb2">
+                                <a href="{{ post.url | relative_url }}">
+                                    {{ post.title | escape }}
+                                </a>
+                            </h3>
+                            <div class="home-excerpt f5 measure-wide pr3 mid-gray">
                                 {{ post.excerpt }}
                             </div>
                         </div>
@@ -30,7 +34,7 @@
                             {% include reading-time.html content=post.content %}
                         </div>
                     </div>
-                </a>
+                </div>
                 {%- endfor -%}
             </div>
         {%- endif -%}
