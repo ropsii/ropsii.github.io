@@ -12,17 +12,19 @@
                     <div class="overflow-x-hidden nr3">
                         <div class="measure-wide center">
                             <div class="pr3">
-                                <h1 class="f3 lh-title mt0 mb3" itemprop="name headline">{{ page.title | escape }}</h1>
-                                <div class="f5 f4-m post-content" itemprop="articleBody">
-                                    {{ content }}
-                                </div>
-                                <div class="f7 tr mt3">
-                                    — <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                                <div class="f7 mb3">
+                                    On <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                                         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                                         {{ page.date | date: date_format }}
                                     </time>
                                 </div>
-
+                                <h1 class="f3 lh-title mt0 mb3" itemprop="name headline">{{ page.title | escape }}</h1>
+                                <div class="f5 f4-m post-content" itemprop="articleBody">
+                                    {{ content }}
+                                </div>
+                                <div class="f7 mt3 mb3 mb5-l">
+                                    Leave your comments to <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.
+                                </div>
                             </div>
                         </div>
                     </div>
