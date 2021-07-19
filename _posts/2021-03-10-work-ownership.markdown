@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Your Work Isn’t All Yours"
+title:  "Your Work Isn’t Entirely Yours"
 author: "Petar Perovic"
 date:   2021-03-15 10:10:00 +0100
 summary: "Everything is built on top of something"
@@ -30,4 +30,4 @@ Let’s drag this logic even further. iPhone exists not only thanks to Apple but
 
 Everything is built on top of something. Remarkable innovators are good at combining other people’s work in surprising ways. Sufficient to make a creation distant enough from its building blocks, so it feels original and unique.
 
-Finally, who owns your design? You and everyone else before you. Every person who contributed to the ingredients that made your work possible. Patent rights are wrong. Always give credit.
+Finally, who owns your design? You and everyone else before you. Every person who contributed to the ingredients that made your work possible. Always give credit.

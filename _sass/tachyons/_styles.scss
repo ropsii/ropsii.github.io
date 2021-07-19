@@ -28,10 +28,11 @@ a {
     text-underline-offset: 1px;
 }
 
-a:hover,
+a:hover {
+    background-color: lighten($link-color, 65%);
+}
 a:focus {
-    background-color: $light-yellow;
-    box-shadow: 0 0 14px 2px $light-yellow;
+    outline: 2px dotted $link-color;
 }
 
 // a:active,
@@ -50,10 +51,14 @@ hr {
 }
 
 hr::before {
-    content: "* * *";
+    content: "";
     position: absolute;
-    top: 40%;
-    left: 48%;
+    left: calc(50% - 40px);
+    top: calc(50% - 4px);
+    height: 4px;
+    width: 80px;
+    background: repeating-linear-gradient(to right, $dark-gray, $dark-gray 16px, white 16px, white 32px);
+    border: 1px solid;
 }
 
 
@@ -69,8 +74,22 @@ pre,table,fieldset,hr {
     margin-bottom: 1rem;
 }
 
+
+.toc::after {
+    content: "...........................................................................................................................................................";
+    font-size: 11px;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: .15rem;
+    vertical-align: baseline;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    z-index: -1;
+}
+
 .post-content h2 {
-    font-size: $font-size-4;
+    font-size: $font-size-5;
 }
 
 // @media #{$breakpoint-medium} {
