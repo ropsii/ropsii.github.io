@@ -3,27 +3,31 @@
 
 {%- include head.html -%}
 
-    <div class="pl5-m">
-        <div class="bl br bb bw1">
+    <div class="pt3 pb2 bb">
+        <a href="{{ "/" | relative_url }}">Petar Perović ✳ Software Designer</a> /
+    </div>
+
+    <div>
+        <div>
 
             <article itemscope itemtype="http://schema.org/BlogPosting">
 
-                <div class="bg-white ph3 pt3 pv4-l">
+                <div class="bg-white pt3">
                     <div class="overflow-x-hidden nr3">
-                        <div class="measure-wide center">
+                        <div class="measure-wide">
                             <div class="pr3">
-                                <div class="f7 mb3">
+                                <h1 class="f4 lh-title mt0 mb3" itemprop="name headline">{{ page.title | escape }}</h1>
+                                <div class="post-content" itemprop="articleBody">
+                                    {{ content }}
+                                </div>
+                                <div class="f7 mb3 mt5">
+
                                     On <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                                         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                                         {{ page.date | date: date_format }}
-                                    </time>
-                                </div>
-                                <h1 class="f3 lh-title mt0 mb3" itemprop="name headline">{{ page.title | escape }}</h1>
-                                <div class="f5 f4-m post-content" itemprop="articleBody">
-                                    {{ content }}
-                                </div>
-                                <div class="f7 mt3 mb3 mb5-l">
-                                    Leave your comments to <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter.
+                                    </time> ✳
+
+                                    Mention <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter to comment
                                 </div>
                             </div>
                         </div>
