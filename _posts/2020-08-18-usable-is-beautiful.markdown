@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ugly Blue Links"
+title:  "Ugly Default Blue Underlined Links"
 author: "Petar Perovic"
 date:   2020-07-11 12:10:00 +0100
 summary: "Usable is beautiful"
