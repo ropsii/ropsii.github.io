@@ -36,32 +36,44 @@
             </div>
         </div>
 
-        <p class="mb3 measure-wide">
-            I irregularly write about design, making software and society.
-        </p>
-
-        {%- if site.posts.size > 0 -%}
-
-            <div>
-                {%- for post in site.posts -%}
-                <div class="measure-wide">
-                    <div class="flex-ns items-center justify-between mb1 relative">
-                        <div class="toc">
-                            <h3 class="f5 normal mb0 dib bg-white pr2">
-                                <a href="{{ post.url | relative_url }}">
-                                    {{ post.title | escape }}
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="f7 bg-white mb3 mb0-ns pl2-ns">
-                            {{ post.date | date: "%b %-d, %Y" }}
-                        </div>
+        <div class="flex-m flex-row-reverse justify-end">
+            <div class="dn db-m ml4 pt2 pr5-l mw5">
+                <div>
+                    <div class="flex items-center justify-center f4 mb2 ba br-100" style="width: 28px; height: 28px">
+                        <span class="a-spin-circle">✳</span>
                     </div>
-                    <div class="mb4">{{ post.excerpt | markdownify | strip_html | truncatewords: 35  }}</div>
+                    <p class="f7 mb0">Follow <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter to stay in the loop. You can also grab <a href="/feed.xml">RSS&nbsp;Feed</a> if you prefer.</p>
                 </div>
-                {%- endfor -%}
             </div>
-        {%- endif -%}
+            <div class="measure-wide">
+                <p class="mb3">
+                    I irregularly write about design, making software and society.
+                </p>
+
+                {%- if site.posts.size > 0 -%}
+
+                    <div>
+                        {%- for post in site.posts -%}
+                        <div>
+                            <div class="flex-ns items-center justify-between mb1 relative">
+                                <div class="toc">
+                                    <h3 class="f5 normal mb0 dib bg-white pr2">
+                                        <a href="{{ post.url | relative_url }}">
+                                            {{ post.title | escape }}
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="f7 bg-white mb3 mb0-ns pl2-ns">
+                                    {{ post.date | date: "%b %-d, %Y" }}
+                                </div>
+                            </div>
+                            <div class="mb4">{{ post.excerpt | markdownify | strip_html | truncatewords: 35  }}</div>
+                        </div>
+                        {%- endfor -%}
+                    </div>
+                {%- endif -%}
+            </div>
+        </div>
     </div>
 
     {%- include colophon.html -%}

@@ -88,6 +88,15 @@ pre,table,fieldset,hr {
     z-index: -1;
 }
 
+.a-spin-circle {
+    animation: spin-circle 4s linear infinite;
+}
+
+@keyframes spin-circle {
+    0%   { transform: rotate(0deg) };
+    100% { transform: rotate(360deg) };
+}
+
 .post-content h2 {
     font-size: $font-size-5;
 }
