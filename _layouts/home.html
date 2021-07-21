@@ -19,7 +19,7 @@
             </div>
             <div class="mt3 mt0-ns">
                 <p class="mb2 measure-narrow">Use any of these channels to reach out:</p>
-                <ul>
+                <ul class="mb0">
                     <li>
                         <p class="mb0">This is my best <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#101;&#114;&#111;&#118;&#105;&#99;&#46;&#112;&#101;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="">&#69;&#109;&#97;&#105;&#108;</a></p>
                     </li>
@@ -36,42 +36,34 @@
             </div>
         </div>
 
-        <div class="flex-m flex-row-reverse justify-end">
-            <div class="dn db-m ml4 pt2 pr5-l mw5">
-                <div>
-                    <div class="flex items-center justify-center f4 mb2 ba br-100" style="width: 28px; height: 28px">
-                        <span class="a-spin-circle">✳</span>
-                    </div>
-                    <p class="f7 mb0">Follow <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter to stay in the loop. You can also grab <a href="/feed.xml">RSS&nbsp;Feed</a> if you prefer.</p>
-                </div>
-            </div>
+        <div class="flex-m">
             <div class="measure-wide">
                 <p class="mb3">
                     I irregularly write about design, making software and society.
                 </p>
 
                 {%- if site.posts.size > 0 -%}
-
-                    <div>
-                        {%- for post in site.posts -%}
-                        <div>
-                            <div class="flex-ns items-center justify-between mb1 relative">
-                                <div class="toc">
-                                    <h3 class="f5 normal mb0 dib bg-white pr2">
-                                        <a href="{{ post.url | relative_url }}">
-                                            {{ post.title | escape }}
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="f7 bg-white mb3 mb0-ns pl2-ns">
-                                    {{ post.date | date: "%b %-d, %Y" }}
-                                </div>
-                            </div>
-                            <div class="mb4">{{ post.excerpt | markdownify | strip_html | truncatewords: 35  }}</div>
+                    {%- for post in site.posts -%}
+                    <div class="flex-m items-baseline justify-between mb1">
+                        <h3 class="f5 normal mb1 mb0-m toc">
+                            <a href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}</a>
+                        </h3>
+                        <div class="f7 mb2 mb0-m pl2-m nowrap">
+                            {{ post.date | date: "%b %-d, %Y" }}
                         </div>
-                        {%- endfor -%}
                     </div>
+                    <div class="mb4">{{ post.excerpt | markdownify | strip_html | truncatewords: 35  }}</div>
+                    {%- endfor -%}
                 {%- endif -%}
+            </div>
+            <div class="dn db-m ml4 pt2 flex-shrink-0" style="max-width: 12rem">
+                <div>
+                    <div class="flex items-center justify-center f3 mb2 ba br-100" style="width: 28px; height: 28px">
+                        <span class="a-spin-circle" style="width: 18px; height: 17px; line-height: 18px;">✳</span>
+                    </div>
+                    <p class="f7 mb0">Follow <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter to stay in the loop. You can also grab <a href="/feed.xml">RSS&nbsp;Feed</a> if you prefer.</p>
+                </div>
             </div>
         </div>
     </div>

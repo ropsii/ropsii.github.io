@@ -74,22 +74,22 @@ pre,table,fieldset,hr {
     margin-bottom: 1rem;
 }
 
-
-.toc::after {
-    content: "...........................................................................................................................................................";
-    font-size: 11px;
-    width: 100%;
+.toc {
+    white-space: nowrap;
     overflow: hidden;
-    letter-spacing: .15rem;
-    vertical-align: baseline;
-    position: absolute;
-    left: 0;
-    top: 6px;
-    z-index: -1;
+}
+
+@media #{$breakpoint-large} {
+    .toc::after {
+        content: " ...........................................................................................................................................................";
+        font-size: 11px;
+        letter-spacing: .1rem;
+        padding-left: 4px;
+    }
 }
 
 .a-spin-circle {
-    animation: spin-circle 4s linear infinite;
+    animation: spin-circle 2s linear infinite;
 }
 
 @keyframes spin-circle {
@@ -100,12 +100,6 @@ pre,table,fieldset,hr {
 .post-content h2 {
     font-size: $font-size-5;
 }
-
-// @media #{$breakpoint-medium} {
-//     .post-content h2 {
-//         font-size: $font-size-3;
-//     }
-// }
 
 img + em {
     font-size: $font-size-7;
