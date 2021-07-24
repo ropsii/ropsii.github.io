@@ -24,8 +24,8 @@ Google gives us the most amazing maps ever for free, but in exchange they track 
 
 ## The moral of recycling
 
-But hey, we’re all in this together. It’s a systemic disease. The socioeconomic framework we live in is like a software designed so badly it’s continually damaging the computer it is running on.
+But hey, we’re all in this together. The socioeconomic framework we participate in is like a software designed so badly it’s continually damaging the computer it is running on.
 
-I know how naive this sounds, but I cope with this by choosing jobs whose impact I can imagine as at least immediately neutral to the society. For example renting my labor to companies building software that makes someone’s life directly better. Like developer tools, for example. And avoid marketing and advertising software whose only immediate goal is to pump spending. Even though, at the end of the day, you can’t avoid participating in the system, so it almost doesn’t matter. And it’s debatable how individual life choices affect society.
+I know how naive this sounds, but I cope with this by choosing jobs whose impact I can imagine as at least neutral to the society. For example _renting_ my labor to companies building software that makes someone’s life immediately better. Like developer tools, for example. And avoid marketing and advertising companies whose only immediate goal is to pump spending. Even though, at the end of the day, you can’t avoid participating in the system, so it almost doesn’t matter. And many people aren’t in the position to choose, so we should never blame it on the individual workers.
 
-For the same reason people separate waste. Or buy organic. We unconsciously know our individual action doesn’t do shit, but we still do it. To make small acts of solidarity with nature. To be at peace with ourselves.
+It’s for that reason people separate waste. Or buy organic. We unconsciously know our individual action doesn’t do shit, but we still do it. To make small acts of solidarity with nature. To be at peace with ourselves.

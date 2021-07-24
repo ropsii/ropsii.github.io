@@ -15,10 +15,10 @@
 
 
 body {
-    font-family: $sans-serif;
+    font-family: $serif;
     line-height: $line-height-copy;
     font-size: $font-size-5;
-    color: $dark-gray;
+    color: $near-black;
     background-color: $background-color;
 }
 
@@ -26,10 +26,12 @@ a {
     color: $link-color;
     border-radius: 5px;
     text-underline-offset: 1px;
+    transition: background-color .15s;
 }
 
 a:hover {
-    background-color: lighten($link-color, 65%);
+    background-color: #fff;
+    box-shadow: 0 0 4px 1px #fff;
 }
 a:focus {
     outline: 2px dotted $link-color;
@@ -98,10 +100,13 @@ pre,table,fieldset,hr {
 }
 
 .post-content h2 {
-    font-size: $font-size-5;
+    font-size: $font-size-4;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
 }
 
-img + em {
+.post-content img + em {
     font-size: $font-size-7;
     display: block;
     text-align: center;
