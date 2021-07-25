@@ -24,17 +24,17 @@ body {
 
 a {
     color: $link-color;
-    border-radius: 5px;
     text-underline-offset: 1px;
-    transition: background-color .15s;
+    transition: background-color .1s;
 }
 
 a:hover {
     background-color: #fff;
-    box-shadow: 0 0 4px 1px #fff;
+    background-color: lighten($link-color, 61%);
 }
 a:focus {
     outline: 2px dotted $link-color;
+    z-index: 1;
 }
 
 // a:active,
@@ -103,7 +103,7 @@ pre,table,fieldset,hr {
     font-size: $font-size-4;
     font-weight: 400;
     border-bottom: 1px solid;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
 }
 
 .post-content img + em {
@@ -141,7 +141,7 @@ pre,table,fieldset,hr {
 
 
 .post-content .highlight {
-    border: 2px solid;
+    border: 1px solid;
     padding: 16px;
     position: relative;
     margin-top: 1.25rem;
@@ -151,7 +151,7 @@ pre,table,fieldset,hr {
     content: "✳";
     position: absolute;
     right: 8px;
-    top: -20px;
+    top: -17px;
     font-size: $font-size-3;
     background-color: #fff;
     padding: 0 8px;
@@ -174,7 +174,7 @@ a.footnote {
 
 a.footnote:hover,
 a.footnote:focus {
-    background-color: $background-color;
+    background-color: lighten($link-color, 61%);
 }
 
 .footnotes {

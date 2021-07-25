@@ -11,6 +11,8 @@ Designers need a constant reminder about the fundamentals of good UI design. The
 
 However, that gets neglected, sometimes under the burden of trends, and often out of a personal preference or sheer complexity of the interface that designer is trying to _domesticate_.
 
+<img width="616" height="80" src="{% link /assets/usable-is-beautiful_slider.png %}" alt="Slider between elegant and usable link design">
+
 We tend to sterilize our work. I do it all the time. In order to fight the visual complexity we remove too many _signals_ and our UIs become unintentionally worse. When there’s not enough signal, eyes can’t stop and rest, and user feels lost. When there’s too many, UI gets messy and incoherent.
 
 What is a signal? In broadest sense, all elements on the page compete for our attention. Signal is what gives some of them more importance and meaning. Underlined text in a browser usually means it’s a link, bold text emphasizes the importance, bigger font size also, frames and colors. Images and illustrations, icons in the user interfaces, and so on. Everything that sets something apart from uniformity is a signal.

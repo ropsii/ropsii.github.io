@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Your Work Isn’t Entirely Yours"
+title:  "Your Work Isn’t All Yours"
 author: "Petar Perovic"
 date:   2021-03-15 10:10:00 +0100
 summary: "Everything is built on top of something"
