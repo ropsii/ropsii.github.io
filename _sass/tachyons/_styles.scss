@@ -30,7 +30,8 @@ a {
 
 a:hover {
     background-color: #fff;
-    background-color: lighten($link-color, 61%);
+    background-color: $light-yellow;
+    box-shadow: 0 0 4px 2px $light-yellow;
 }
 a:focus {
     outline: 2px dotted $link-color;
@@ -174,7 +175,7 @@ a.footnote {
 
 a.footnote:hover,
 a.footnote:focus {
-    background-color: lighten($link-color, 61%);
+    background-color: lighten($link-color, 70%);
 }
 
 .footnotes {
