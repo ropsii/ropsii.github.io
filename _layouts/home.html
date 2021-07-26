@@ -47,7 +47,7 @@
                     {%- if site.posts.size > 0 -%}
                         {%- for post in site.posts -%}
                         <div class="flex-m items-baseline justify-between mb1">
-                            <h3 class="f5 normal mb1 mb0-m toc">
+                            <h3 class="f5 normal mb1 mb0-m nl1 pl1 toc">
                                 <a href="{{ post.url | relative_url }}">
                                     {{ post.title | escape }}</a>
                             </h3>
@@ -55,7 +55,7 @@
                                 {{ post.date | date: "%b %-d, %Y" }}
                             </div>
                         </div>
-                        <div class="mb4">{{ post.excerpt | markdownify | strip_html | truncatewords: 35  }}</div>
+                        <div class="mb4 pl3">{{ post.excerpt | markdownify | strip_html | truncatewords: 34  }}</div>
                         {%- endfor -%}
                     {%- endif -%}
                 </div>
