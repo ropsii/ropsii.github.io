@@ -13,7 +13,7 @@ One of the core ideas of interaction design is to enable users to glide smoothly
 Great products ask nothing from you on the first interaction. They’ll let you in and experiment without requiring anything upfront, not even your email address. Usually, until you need to save something. Hoping that, by that moment, they succeeded at demonstrating their value. That’s how removing friction, or only slightly delaying it, gives you a head start on the competition.
 
 ![Delete repository on GitHub screen](/assets/friction-github_delete.png)
-*When you try to delete a repository, GitHub will force you to correctly type its name, to make sure you’re doing it on purpose.*
+*I could delete this blog with all its content forever, but GitHub makes it almost impossible to do it by accident. It will make me to stop and think, preventing me from making a dumb mistake.*
 
 However, there are situations where you deliberately want to make interaction less convenient for users’ benefit. When you purposely want to make them stop and think. Typically when they’re about to perform a potentially destructive action or/and an operation that affects other people in the system. For example, to prevent them from accidentally deleting a project shared between many people and forever losing everyone’s important work. That’s where adding friction saves you from shooting yourself in the foot. As a rule of thumb, whenever there’s a potential of users harming themselves — add friction.
 
