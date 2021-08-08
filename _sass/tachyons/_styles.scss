@@ -99,15 +99,6 @@ pre,table,fieldset,hr {
     }
 }
 
-.a-spin-circle {
-    animation: spin-circle 3s linear infinite;
-}
-
-@keyframes spin-circle {
-    0%   { transform: rotate(0deg) };
-    100% { transform: rotate(360deg) };
-}
-
 .post-content h2 {
     font-size: $font-size-5;
     font-weight: 400;
@@ -163,11 +154,10 @@ pre,table,fieldset,hr {
 }
 
 .post-content .highlight::before {
-    content: "✳";
+    content: "✻";
     position: absolute;
     right: 8px;
-    top: -17px;
-    font-size: $font-size-3;
+    top: -14px;
     background-color: #fff;
     padding: 0 8px;
 }

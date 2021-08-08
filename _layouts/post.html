@@ -4,7 +4,7 @@
 {%- include head.html -%}
 
     <div class="pt3 pb2 bb">
-        <a href="{{ "/" | relative_url }}">Petar Perović ✳ Software Designer</a> /
+        <a href="{{ "/" | relative_url }}">Petar Perović <span class="f6">✻</span> Software Designer</a> /
     </div>
 
     <div>
@@ -25,7 +25,7 @@
                                     On <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                                         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                                         {{ page.date | date: date_format }}
-                                    </time> ✳
+                                    </time> ✻
 
                                     Mention <a href="https://twitter.com/ropsii">@ropsii</a> on Twitter to comment
                                 </div>
