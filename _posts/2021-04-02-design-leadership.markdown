@@ -8,7 +8,7 @@ categories: design leadership work thinking context
 image: /assets/cover-design-leadership.png
 ---
 
-<img class="fr ml4 nt3 nr5" width="180" height="429" src="{% link /assets/leadership-queen.jpg %}" alt="Queen illustration">
+<img class="fr ml4 nt3 nr5" width="180" height="429" src="{% link /assets/leadership-queen.jpg %}" alt="Queen illustration" style="mix-blend-mode: multiply">
 What does a design leader do? How different companies describe this role can vary a lot. It indicates anything from managing a design team and helping shape the product strategy to mentoring designers, directing the visual design, and often contributing individually. It can be more strategic, more operational, or more artistic. Or a little bit of everything. Usually, whatever is necessary to keep the boat afloat.
 
 A leader’s routine depends on the structure and the size of the organization. In small teams, they naturally do everything. In larger enterprises, hierarchy dictates a more specific division. Hence they engage in more strategic contributions and team direction than hands-on designing.
