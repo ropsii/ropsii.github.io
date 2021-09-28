@@ -49,232 +49,315 @@
             }
 
             .shadow-2 { box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 10%), 0px 10px 30px 0 rgb(113 130 130); }
+
+            #navigation a {
+                text-decoration: none;
+            }
+
+            #navigation a::after {
+                content:"";
+                display: inline-block;
+                width: 20px;
+                margin-left: 6px;
+            }
+
+            #navigation a.active::after {
+                content:"✻";
+            }
         </style>
     </head>
 
 <body class="bg-near-white ph3 ph4-m pb4">
 
-    <div class="bb pt3 pb2">
-        <a href="/" class="link">
-            Petar Perović <span class="f6">✻</span> Software Designer
-        </a>
-    </div>
-
-    <div class="bb pv3 mb4">
-        <p class="measure mb4">I’m a Portugal-based designer. Last I led product design at <a href="https://semaphoreci.com">Semaphore&nbsp;CI</a>, a tool for developers. Currently, I’m on sabbatical but open to discuss future roles.</p>
-
-        <div class="mb4 bb pb4">
-            <img src="{% link /assets/me.svg %}" width="192" height="192" alt="petar perovic" class="db">
+    <nav id="navigation" class="fixed top-0 right-0 dn db-l">
+        <div class="f7 ba bg-near-white pa3 mt3 mr4">
+            <div>
+                <a href="#top" class="active">Profile</a>
+            </div>
+            <div>
+                Experience
+            </div>
+            <div class="pl1">
+                <a href="#semaphore">– Semaphore CI</a>
+            </div>
+            <div class="pl1">
+                <a href="#super">– Super</a>
+            </div>
+            <div class="pl1">
+                <a href="#activecollab">– ActiveCollab</a>
+            </div>
+            <div>
+                <a href="#skills">How can I help you?</a>
+            </div>
         </div>
+    </nav>
 
-        <p class="measure mb4">I’m a generalist, and I’ve worked in all phases of the product cycle, from strategy and discovery, to production and shipping features. My interest is in building software that is ethical, meaningful, useful, and accessible.</p>
+    <div>
+        <section id="top">
+            <div class="bb pt3 pb2">
+                <a href="/" class="link">
+                    Petar Perović <span class="f6">✻</span> Software Designer
+                </a>
+            </div>
 
-        <div class="ba mb4 pv3 pl3 pr4 measure">
-            <p>Too long, didn’t read:</p>
-            <ul class="mb2">
-                <li>Led design in a developer tool used by teams from <em>Uber</em>, <em>Salesforce</em>, <em>Intel</em>, <em>Toyota</em>, and such</li>
-                <li>Experienced redesigning complex, bootstrapped products with big, live user base</li>
-                <li>Principal-level individual contributor / product strategist, with experience leading small design teams</li>
+            <div class="pv3">
+
+                <p class="measure mb4">I’m a generalist, and I’ve worked in all phases of the product cycle, from strategy and discovery, to production and shipping features. My interest is in building software that is ethical, meaningful, useful, and accessible.</p>
+
+                <div class="ba mb4 pv3 pl3 pr4 measure">
+                    <p>Too long, didn’t read:</p>
+                    <ul class="mb2">
+                        <li>Led design in a developer tool used by teams from <em>Uber</em>, <em>Salesforce</em>, <em>Intel</em>, <em>Toyota</em>, and such</li>
+                        <li>Experienced redesigning complex products with big, live user base</li>
+                        <li>Principal-level IC / product strategist, with experience leading small design teams</li>
+                        <li>12 years in the industry</li>
+                    </ul>
+                </div>
+
+                <p>Reach out — <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#101;&#114;&#111;&#118;&#105;&#99;&#46;&#112;&#101;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="">&#69;&#109;&#97;&#105;&#108;</a>, <a href="https://twitter.com/ropsii">Twitter</a> or <a href="https://www.linkedin.com/in/petarperovic/">LinkedIn</a>.</p>
+
+            </div>
+        </section>
+
+        <section id="semaphore" class="bt pt4">
+            <h2 class="f4 f3-m normal mb0">Semaphore CI</h2>
+            <p class="f7">Principal Product Designer · 2016–21 · <a href="https://semaphoreci.com">semaphoreci.com</a></p>
+
+            <p class="measure">Semaphore is a tool for developers used by engineering teams at <em>Uber</em>, <em>Salesforce</em>, and <em>Intel</em>, and many others. I was in command of product design for slightly under five years.</p>
+
+            <div class="mv4 mv5-m" style="max-width: 1150px">
+                <img src="{% link /assets/work-sem-workflow.png %}" alt="Semaphore workflow page" class="shadow-2 w-100">
+                <p class="f7 measure mt3">This page is the principal point of interaction between developers and Semaphore. It tells them how their latest batch of work is doing and if it’s ready to be merged into the codebase.</p>
+            </div>
+
+
+            <h3 class="f5 f4-m normal mb3">My Role</h3>
+            <p class="measure pb4-m">I focused solely on product, from product strategy and figuring out what customers want, to building features. I spent my time between strategic and individual contributions, and running a small design team of 3.</p>
+
+            <div class="mv4 mv5-m" style="max-width: 800px">
+                <img src="{% link /assets/work-sem-whimsical.png %}" alt="Semaphore flowchart" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">In recent years, I’ve been heavily relying on <a href="https://whimsical.com/">Whimsical</a> for high-level design. Often the engineering team would use these flowcharts later as the foundation for designing specs.</p>
+            </div>
+
+            <h3 class="f5 f4-m normal mb3">Tools</h3>
+            <p class="measure pb4-m">I favor whatever is faster or more appropriate for a given occasion. Sometimes it’s pen & paper, often a lo-fi tool like Balsamiq, Sketch is for more precise visuals, but I also design in code. I used <a href="https://tachyons.io/">Tachyons</a> to make Semaphore entirely in code.</p>
+
+            <div class="mv4 mv5-m" style="max-width: 1150px">
+                <img src="{% link /assets/work-sem-repository.png %}" alt="Semaphore repository page" class="shadow-2 w-100">
+                <p class="f7 measure mt3">Setting up continuous delivery is a daunting task, even for experienced developers, and onboarding was always an area of our team’s special attention.</p>
+            </div>
+
+            <div class="mt4">
+                <p class="measure pt4-m mb4 mb5-m">As part of the design system, I developed a simple <em>illustration framework</em>. The idea was to ease and relax the user onboarding and breathe life into tedious, technical explanations.
+                </p>
+                <div class="">
+                    <img src="{% link /assets/work-sem-illustrations.svg %}" alt="Semaphore illustration system" class="flex-shrink-0 w-100" style="max-width: 600px">
+                </div>
+            </div>
+
+            <div class="nt4 mb4 mb5-m" style="max-width: 1024px">
+                <img src="{% link /assets/work-sem-contact.png %}" alt="Semaphore contact page" class="shadow-2 w-100">
+                <p class="f7 measure mt3">These illustrations appear in various places around the app, usually blank slates and onboarding pages, and wherever we felt it would make the experience slightly nicer.</p>
+            </div>
+
+            <h3 class="f5 f4-m normal mb3">The Challenge</h3>
+            <p class="measure mb0">A generous portion of my efforts went on understanding the domain so distant from my reality. To figure out what developers want from the software. But also to learn what excites their team leaders and makes them choose one thing over another.
+            </p>
+
+            <div class="mv4 mv5-m" style="max-width: 1150px">
+                <img src="{% link /assets/work-sem-tests.png %}" alt="Semaphore tests page" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">Working on a complex product teaches humility. I had to step back and carefully listen and learn from my fellow developers, users, and everybody else who could help me understand what the hell we were trying to make.</p>
+            </div>
+
+            <div class="mv4 mv5-m">
+                <h3 class="f5 f4-m normal mb3">The Process</h3>
+                <p class="measure">Design worked in a tightly coupled relationship with customer success, using a combination of (a) <em>Simple stats</em>, (b) <em>Business metrics</em>, and (c) <em>Customer interviews</em>. The goal was to figure out what brings the most value for both our customers and our business.</p>
+            </div>
+
+            <div class="mv4 mv5-m" style="max-width: 800px;">
+                <img src="{% link /assets/work-sem-process.png %}" alt="Semaphore process" class="w-100" style="margin-left: -96px">
+                <p class="f7 measure mt3">We were learning how to improve by looking at numbers and regularly talking to the customers.</p>
+            </div>
+
+            <p class="measure mb4 mb5-m">During my tenure, we released a <em>massive product redesign</em>. Deep relationships with engineering teams from <em>Intel</em>, <em>Toyota</em>, <em>Salesforce</em>, and others, inspired us to build an entirely new product. We operated through a strong feedback loop with our customers, and product design was a fundamental piece in the process.
+            </p>
+
+            <div>
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/semaphoreci?ref_src=twsrc%5Etfw">@semaphoreci</a> Just had the Semaphore CI re-design rolled-out to my UI, I think this might the only case I have ever seen where a re-design has improved everything. Nothing has gone backwards or is bothersome. That&#39;s how to do a re-design, loads of subtle improvments &amp; polish.</p>&mdash; Sean Hinton (@SeanHinton18) <a href="https://twitter.com/SeanHinton18/status/1379385459382616068?ref_src=twsrc%5Etfw">April 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+            <p class="f7 measure-wide mt1">…and I think this might be the only case I have ever seen someone praising a redesign. I promise this person isn’t my friend or relative.</p>
+
+
+            <div class="mv4 mv5-m">
+                <div class="mb2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="360" height="106" viewBox="0 0 360 106" style="width: 120px; height: auto;">
+                        <defs>
+                            <style>
+                            .cls-1 {
+                                fill: #758383;
+                                fill-rule: evenodd;
+                            }
+                            </style>
+                        </defs>
+                        <path id="Typewolf" class="cls-1" d="M50.6,78.536V76.759a5.475,5.475,0,0,1-3.328-2.1,9.028,9.028,0,0,1-.957-4.783V22.55q0-4.646.957-5.9t3.6-1.253a15.32,15.32,0,0,1,8.639,2.915,25.08,25.08,0,0,1,7.362,7.972l2.051-.638L66.369,10.524H10.663L7.29,25.648l1.96,0.638a36.726,36.726,0,0,1,8.935-7.881Q23.062,15.4,26.527,15.4q2.37,0,3.191,1.344t0.821,6.674V69.88a9.028,9.028,0,0,1-.957,4.783,5.477,5.477,0,0,1-3.328,2.1v1.777H50.6Zm25.135,8.382a20.252,20.252,0,0,1-2.142,4.3,2.588,2.588,0,0,1-1.96,1.3,1,1,0,0,1-.912-0.592A3.735,3.735,0,0,1,70.4,90.2a3.028,3.028,0,0,1,.046-0.5c0.03-.182.046-0.289,0.046-0.319a5.112,5.112,0,0,0-1.482-3.735,4.894,4.894,0,0,0-3.624-1.5,6.543,6.543,0,0,0-6.747,6.7,7.471,7.471,0,0,0,2.712,5.9,10.178,10.178,0,0,0,6.906,2.346,11.05,11.05,0,0,0,8.866-4.35q3.578-4.351,7.225-15.739l11.26-35.532a33.071,33.071,0,0,1,3.214-7.4,8.448,8.448,0,0,1,3.716-3.53V30.75H87.766v1.777a6.488,6.488,0,0,1,2.462,2.414,6.949,6.949,0,0,1,.82,3.462,24.782,24.782,0,0,1-.205,3.212,18.583,18.583,0,0,1-.615,2.938l-6.291,20.18-8.57-25.92a12.713,12.713,0,0,1-.479-1.708,7.531,7.531,0,0,1-.16-1.48,2.937,2.937,0,0,1,.524-1.8,4.626,4.626,0,0,1,1.8-1.3V30.75H58v1.777q1.5,0.137,3.009,2.414a33.223,33.223,0,0,1,3.146,6.924L77.965,81.132Zm42.8-45.872a9.927,9.927,0,0,1,3.214-2.187,10.078,10.078,0,0,1,3.9-.729,7.131,7.131,0,0,1,6.952,4.532q2.073,4.533,2.074,15.648,0,9.293-1.915,13.6t-6.108,4.3a6.425,6.425,0,0,1-6.223-4.009q-1.891-4.008-1.892-13.529V41.045Zm3.009,58.035V97.3a3.128,3.128,0,0,1-2.439-1.663q-0.661-1.344-.661-6.674V76.395a13.459,13.459,0,0,0,4.331,2.6,15.339,15.339,0,0,0,5.288.865q8.523,0,13.653-7.607t5.128-20.5q0-10.158-3.829-16.171t-10.211-6.013a15.4,15.4,0,0,0-6.815,1.8,34.012,34.012,0,0,0-7.545,5.353V29.566h-2.234a21.98,21.98,0,0,1-5.834,5.079,24.761,24.761,0,0,1-7.613,2.938v1.959a4.512,4.512,0,0,1,2.986,2.209q0.843,1.617.843,6.628V89.833q0,4.6-.638,5.854a3.208,3.208,0,0,1-2.371,1.617V99.08h17.961Zm44.564-62.2a6.429,6.429,0,0,1,6.017-3.94,7.026,7.026,0,0,1,5.949,2.893q2.165,2.893,2.165,7.995,0,3.1-1.208,4.032t-6.541.934H164.1Q164.1,40.818,166.109,36.877Zm19.077,32.889a15.3,15.3,0,0,1-6.724,1.48q-6.7,0-10.37-4.669t-3.9-13.506H191.91q-0.183-10.7-5.538-17.105a17.452,17.452,0,0,0-14.064-6.4,18.924,18.924,0,0,0-15.02,7.2q-6.086,7.2-6.086,17.993,0,11.206,6.063,18.153a20,20,0,0,0,15.818,6.947,19.127,19.127,0,0,0,10.873-3.348,30.437,30.437,0,0,0,8.912-9.908l-1.778-1.412A19.607,19.607,0,0,1,185.186,69.767Zm31.229,9.407,8.479-30.885,9.254,30.885h7.066L252.7,41.683a26.488,26.488,0,0,1,2.644-6.2,7.208,7.208,0,0,1,3.145-2.961V30.75H245.362v1.777a6.714,6.714,0,0,1,2.006,2.209,5.845,5.845,0,0,1,.684,2.847,13.942,13.942,0,0,1-.16,2.1,12.877,12.877,0,0,1-.524,2.141l-6.519,22.731L233.784,39a18.6,18.6,0,0,1-.433-2,10.776,10.776,0,0,1-.16-1.64,2.817,2.817,0,0,1,.456-1.708,3.952,3.952,0,0,1,1.5-1.116V30.75H217.418v1.777a8.371,8.371,0,0,1,3.169,2.688,11.023,11.023,0,0,1,1.527,4.328l0.182,1.139-6.382,23.87-7.339-26.6a12.245,12.245,0,0,1-.3-1.3,6.739,6.739,0,0,1-.114-1.116,3.735,3.735,0,0,1,.411-1.776,3.3,3.3,0,0,1,1.094-1.23V30.75H191.754v1.777a4.691,4.691,0,0,1,2.438,2.187,24,24,0,0,1,2.3,5.375l12.719,39.085h7.2Zm68.691-41.727q1.8,4.419,1.8,17.219,0,12.755-1.8,17.242t-6.359,4.487q-4.422,0-6.223-4.578t-1.8-17.151q0-12.527,1.8-17.083t6.223-4.555A6.414,6.414,0,0,1,285.106,37.446ZM259.145,65.1a27.136,27.136,0,0,0,5.881,8.883,20.984,20.984,0,0,0,6.382,4.4,18.272,18.272,0,0,0,7.339,1.48,18.653,18.653,0,0,0,7.362-1.48,21.273,21.273,0,0,0,6.5-4.4,27.464,27.464,0,0,0,7.932-19.315q0-11.024-6-18.107a18.963,18.963,0,0,0-15.111-7.084A20.459,20.459,0,0,0,263.59,36.74a25.669,25.669,0,0,0-6.5,17.743A27.733,27.733,0,0,0,259.145,65.1ZM322.67,78.536V76.759a2.924,2.924,0,0,1-2.325-1.549q-0.639-1.275-.638-5.922V9.021H316.7a21.214,21.214,0,0,1-5.812,5.079,25.043,25.043,0,0,1-7.636,2.938V19a4.592,4.592,0,0,1,3.009,2.255q0.82,1.617.82,6.628V69.288q0,4.647-.638,5.922a2.927,2.927,0,0,1-2.325,1.549v1.777H322.67Zm24.192,0V76.759a2.956,2.956,0,0,1-2.371-1.549q-0.639-1.275-.638-5.922V35.533h8.889V30.75h-9.071l-1.049-2.141q-5.743-11.889-5.744-13.438a2.259,2.259,0,0,1,2.325-2.323q1.322,0,2.462,3.052l0.045,0.137a13.523,13.523,0,0,0,2.553,4.624A4.364,4.364,0,0,0,347.5,22a4.312,4.312,0,0,0,3.1-1.344,4.151,4.151,0,0,0,1.367-3.029,7.56,7.56,0,0,0-3.236-6.036,11.94,11.94,0,0,0-7.659-2.574q-5.379,0-8.479,2.984a10.755,10.755,0,0,0-3.1,8.131,28.41,28.41,0,0,0,.433,4.646q0.432,2.6,1.344,5.968h-7.293v4.783h7.385V68.468q0,5.33-.661,6.674a3.018,3.018,0,0,1-2.439,1.617v1.777h18.6Z"/>
+                        </svg>
+
+                </div>
+                <p class="measure">In 2017, the marketing website I designed won the Typewolf’s <a href="https://www.typewolf.com/site-of-the-day/semaphore">site of the day</a> award for good typography. Shortly after, we outsourced all work on marketing pages so I can focus on the product. I didn’t work on the current websites and other public-facing pages.</p>
+            </div>
+        </section>
+
+        <section id="super" class="bt">
+            <h2 class="f4 f3-m normal mb0 pt4">Super</h2>
+            <p class="f7">Senior Product Designer · 2015–16 · <a href="https://hellosuper.com">hellosuper.com</a></p>
+
+            <p class="measure">Super is trying to tackle the problems of homeownership with technology. It had a successful takeoff <a href="https://www.producthunt.com/posts/super-3">on Product Hunt</a> in late 2015. I joined soon after as a senior designer.</p>
+
+            <div class="mv4 mv5-m" style="max-width: 1024px">
+                <img src="{% link /assets/work-super-homepage.png %}" alt="Super homepage" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">This version of the homepage was an experiment with the <em>Jobs to be Done</em>. The key idea of the theory is to think about how context affects user behavior. So reminding them of their context can be a very effective conversion strategy.
+                </p>
+            </div>
+
+            <h3 class="f5 f4-m normal mb3">My Role</h3>
+            <p class="measure pb4-m">As designer number two, I helped with establishing the early design language. My contributions spread from designing web and mobile apps, marketing pages, to building design foundations in the frontend. I developed on top of <a href="https://basscss.com/">BassCSS</a> toolkit, one of the earliest attempts at <em>functional CSS</em>.</p>
+
+            <div class="mv4 mv5-m" style="max-width: 1150px">
+                <img src="{% link /assets/work-super-webapp.png %}" alt="Super web app" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">Super web app, a simple UI to be used as a backup to the mobile app</p>
+            </div>
+
+            <p class="measure mb4 mb5-m">Super is a simple product of limited technical complexity. The focus of my work was entirely on execution and hands-on design. The real challenge was on the business, to figure out how to disrupt and unlock the traditional insurance market.</p>
+
+            <div class="mb4">
+                <div class="flex">
+                    <div class="mr4 mr5-m " style="max-width: 320px;">
+                        <img src="{% link /assets/work-super-mobile-1.png %}" alt="Super mobile app homescreen" class="shadow-2 w-100">
+                    </div>
+
+                    <div class="mr4 mr5-m pt4" style="max-width: 320px;">
+                        <img src="{% link /assets/work-super-mobile-2.png %}" alt="Super mobile app list of jobs" class="shadow-2 w-100">
+                    </div>
+
+                    <div class="pt5" style="max-width: 320px;">
+                        <img src="{% link /assets/work-super-mobile-3.png %}" alt="Super mobile app one job" class="shadow-2 w-100">
+                    </div>
+                </div>
+            </div>
+
+            <p class="measure mb4 mb5-m">Eventually, we parted ways in slightly under a year. It was a sweet experience and great people, but I felt the need to work on more exciting problems.</p>
+
+        </section>
+
+        <section id="activecollab" class="pb4-m bt">
+            <h2 class="f4 f3-m normal mb0 pt4">Active Collab</h2>
+            <p class="f7">Principal Product Designer · 2013–15 · <a href="https://activecollab.com">activecollab.com</a></p>
+
+            <p class="measure">Active Collab is a beast project management tool that does everything from tasking and budgeting to time tracking and invoicing. Various teams from <em>Apple</em>, <em>NASA</em>, <em>Microsoft</em>, <em>Nike</em>, <em>White House</em>, and others, use it to organize their projects. I led a 2-year long major product redesign, striving to stay relevant in a wildly competitive market.</p>
+
+            <div class="mv4 mv5-m" style="max-width: 1200px">
+                <img src="{% link /assets/work-ac-invoices.png %}" alt="Active Collab invoices" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3 pr5-ns">Invoicing system is one of the building blocks of the app. It syncs time tracking from tasks and projects, and making it all work seamlessly wasn’t a trivial design challenge.</p>
+            </div>
+
+            <h3 class="f5 f4-m normal mb3">My Role</h3>
+            <p class="measure">I joined specifically to try to reverse the <em>experience rot</em>. At the time, the software had entered the phase of maturity and slight negligence. It resulted in a feature creep and severe challenges for future growth. My role was to untangle the mess.
+            </p>
+
+            <div class="mv4 mv5-m" style="max-width: 720px">
+                <img src="{% link /assets/work-ac-sketch2.jpg %}" alt="Active Collab pen and paper sketching" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">Early exploration and sketching. Pen & paper is a handy companion for thinking but of limited value in a team setting. Nowadays, I prefer to share Whimsical flowcharts, Google docs, or a prototype in a browser.</p>
+            </div>
+
+            <h3 class="f5 f4-m normal mb3">The Challenge</h3>
+            <p class="measure">The difficult task was to make cuts and shut down many underused features. To soften the impact of such destructive decisions, we relied on usage statistics, user feedback, and open communication.</p>
+
+
+            <div class="mv4 mv5-m" style="max-width: 900px">
+                <img src="{% link /assets/work-ac-task.png %}" alt="Active Collab task" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">Task, the central item in the app, is interconnected with all other systems. Even though it might seem like any other to-do app, its “ambition” to communicate with every part of the system made it incredibly complex.</p>
+            </div>
+
+            <div class="mv4 mv5-m nl4" style="max-width: 800px;">
+                <img src="{% link /assets/work-ac-icons.svg %}" alt="Active Collab icons" class="w-100">
+            </div>
+
+            <p class="measure">As early as possible, we started running our real projects on a barely usable product. Using what we were building exposed rough edges and gave us obvious directions on what to improve next. In under two years, we rebuilt the system and established the structural foundations still in use today (2021).</p>
+
+            <div class="mv4 mv5-m" style="max-width: 900px">
+                <img src="{% link /assets/work-ac-calendar.png %}" alt="Active Collab calendar" class="shadow-2 w-100">
+                <p class="f7 measure-wide mt3">The calendar is <em>just</em> another view. It behaves like a regular calendar that interacts with everything with a due date, like tasks or invoices.</p>
+            </div>
+
+            <p class="measure">The redesign proved a great success, and it showed in the business metrics immediately after the launch. The revenue from the cloud service doubled in the following year and continued to progress at a steady pace. Part of the credit goes to the redesign that sparked and re-energized the entire company.</p>
+
+        </section>
+
+        <section id="skills" class="bt pb4">
+            <h2 class="f4 f3-m normal mb3 pt4">How can I help you?</h2>
+
+            <p class="measure pr4-m mb3">As a generalist, I’ve been working in organizations up to 50 people, with wide array of duties. I can help both on strategic and hands-on level.</p>
+            <ul class="mb3">
+                <li class="">Product strategy</li>
+                <li class="">Hovering between business and product</li>
+                <li class="">User research</li>
+                <li class="">Prototyping and structural design</li>
+                <li class="">Writing specs</li>
+                <li class="">Visual design</li>
+                <li class="">Writing UI copy</li>
+                <li class="">Icons and illustrations</li>
+                <li class="">Guiding engineers in design implementation</li>
+                <li class="">Hiring designers</li>
+                <li class="">Running a design team</li>
+                <li class="">Mentoring</li>
             </ul>
+
+            <p class="measure pr4-m mb0">I thrive the most as an individual contributor, but I can be productive on many levels, depending on the size and structure of your organization.</p>
+
+        </section>
+
+        <div class="pt3 pt4-m bt pb6">
+            <p class="f7">Thanks for coming down this far! ✻ <a href="#top" class="link ph2 br-pill ba sans-serif hover-bg-near-white">Go back to top</a></p>
         </div>
-
-        <p>Reach out — <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#101;&#114;&#111;&#118;&#105;&#99;&#46;&#112;&#101;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="">&#69;&#109;&#97;&#105;&#108;</a>, <a href="https://twitter.com/ropsii">Twitter</a> or <a href="https://www.linkedin.com/in/petarperovic/">LinkedIn</a>.</p>
-
-    </div>
-
-    <div class="">
-        <h2 class="f4 f3-m normal mb0">Semaphore CI</h2>
-        <p class="f7">Head of Product Design · 2016–21 · <a href="https://semaphoreci.com">semaphoreci.com</a></p>
-
-        <p class="measure">Semaphore is a tool for developers used by engineering teams at <em>Uber</em>, <em>Salesforce</em>, and <em>Intel</em>, and many others. I was in command of product design for slightly under five years.</p>
-
-        <div class="mv4 mv5-m" style="max-width: 1150px">
-            <img src="{% link /assets/work-sem-workflow.png %}" alt="Semaphore workflow page" class="shadow-2 w-100">
-            <p class="f7 measure mt3">This page is the principal point of interaction between developers and Semaphore. It tells them how their latest batch of work is doing and if it’s ready to be merged into the codebase.</p>
-        </div>
-
-
-        <h3 class="f5 f4-m normal mb3">My Role</h3>
-        <p class="measure pb4-m">I focused solely on product, from product strategy and figuring out what customers want, to building features. I spent my time between strategic and individual contributions, and running a small design team of 3.</p>
-
-        <div class="mv4 mv5-m" style="max-width: 800px">
-            <img src="{% link /assets/work-sem-whimsical.png %}" alt="Semaphore flowchart" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">In recent years, I’ve been heavily relying on <a href="https://whimsical.com/">Whimsical</a> for high-level design. Often the engineering team would use these flowcharts later as the foundation for designing specs.</p>
-        </div>
-
-        <h3 class="f5 f4-m normal mb3">Tools</h3>
-        <p class="measure pb4-m">I favor whatever is faster or more appropriate for a given occasion. Sometimes it’s pen & paper, often a lo-fi tool like Balsamiq, Sketch is for more precise visuals, but I also design in code. I used <a href="https://tachyons.io/">Tachyons</a> to make Semaphore entirely in code.</p>
-
-        <div class="mv4 mv5-m" style="max-width: 1150px">
-            <img src="{% link /assets/work-sem-repository.png %}" alt="Semaphore repository page" class="shadow-2 w-100">
-            <p class="f7 measure mt3">Setting up continuous delivery is a daunting task, even for experienced developers, and onboarding was always an area of our team’s special attention.</p>
-        </div>
-
-        <div class="mt4">
-            <p class="measure pt4-m mb4 mb5-m">As part of the design system, I developed a simple <em>illustration framework</em>. The idea was to ease and relax the user onboarding and breathe life into tedious, technical explanations.
-            </p>
-            <div class="">
-                <img src="{% link /assets/work-sem-illustrations.svg %}" alt="Semaphore illustration system" class="flex-shrink-0 w-100" style="max-width: 600px">
-            </div>
-        </div>
-
-        <div class="nt4 mb4 mb5-m" style="max-width: 1024px">
-            <img src="{% link /assets/work-sem-contact.png %}" alt="Semaphore contact page" class="shadow-2 w-100">
-            <p class="f7 measure mt3">These illustrations appear in various places around the app, usually blank slates and onboarding pages, and wherever we felt it would make the experience slightly nicer.</p>
-        </div>
-
-        <h3 class="f5 f4-m normal mb3">The Challenge</h3>
-        <p class="measure mb0">A generous portion of my efforts went on understanding the domain so distant from my reality. To figure out what developers want from the software. But also to learn what excites their team leaders and makes them choose one thing over another.
-        </p>
-
-        <div class="mv4 mv5-m" style="max-width: 1150px">
-            <img src="{% link /assets/work-sem-tests.png %}" alt="Semaphore tests page" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">Working on a complex product teaches humility. I had to step back and carefully listen and learn from my fellow developers, users, and everybody else who could help me understand what the hell we were trying to make.</p>
-        </div>
-
-        <div class="mv4 mv5-m">
-            <h3 class="f5 f4-m normal mb3">The Process</h3>
-            <p class="measure">Design worked in a tightly coupled relationship with customer success, using a combination of (a) <em>Simple stats</em>, (b) <em>Business metrics</em>, and (c) <em>Customer interviews</em>. The goal was to figure out what brings the most value for both our customers and our business.</p>
-        </div>
-
-        <div class="mv4 mv5-m" style="max-width: 800px;">
-            <img src="{% link /assets/work-sem-process.png %}" alt="Semaphore process" class="w-100" style="margin-left: -96px">
-            <p class="f7 measure mt3">We were learning how to improve by looking at numbers and regularly talking to the customers.</p>
-        </div>
-
-        <p class="measure mb4 mb5-m">During my tenure, we released a <em>massive product redesign</em>. Deep relationships with engineering teams from <em>Intel</em>, <em>Toyota</em>, <em>Salesforce</em>, and others, inspired us to build an entirely new product. We operated through a strong feedback loop with our customers, and product design was a fundamental piece in the process.
-        </p>
-
-        <div>
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/semaphoreci?ref_src=twsrc%5Etfw">@semaphoreci</a> Just had the Semaphore CI re-design rolled-out to my UI, I think this might the only case I have ever seen where a re-design has improved everything. Nothing has gone backwards or is bothersome. That&#39;s how to do a re-design, loads of subtle improvments &amp; polish.</p>&mdash; Sean Hinton (@SeanHinton18) <a href="https://twitter.com/SeanHinton18/status/1379385459382616068?ref_src=twsrc%5Etfw">April 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-
-        <p class="f7 measure-wide mt1">…and I think this might be the only case I have ever seen someone praising a redesign. I promise this person isn’t my friend or relative.</p>
-
-
-        <div class="mv4 mv5-m">
-            <div class="mb2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="360" height="106" viewBox="0 0 360 106" style="width: 120px; height: auto;">
-                    <defs>
-                        <style>
-                        .cls-1 {
-                            fill: #758383;
-                            fill-rule: evenodd;
-                        }
-                        </style>
-                    </defs>
-                    <path id="Typewolf" class="cls-1" d="M50.6,78.536V76.759a5.475,5.475,0,0,1-3.328-2.1,9.028,9.028,0,0,1-.957-4.783V22.55q0-4.646.957-5.9t3.6-1.253a15.32,15.32,0,0,1,8.639,2.915,25.08,25.08,0,0,1,7.362,7.972l2.051-.638L66.369,10.524H10.663L7.29,25.648l1.96,0.638a36.726,36.726,0,0,1,8.935-7.881Q23.062,15.4,26.527,15.4q2.37,0,3.191,1.344t0.821,6.674V69.88a9.028,9.028,0,0,1-.957,4.783,5.477,5.477,0,0,1-3.328,2.1v1.777H50.6Zm25.135,8.382a20.252,20.252,0,0,1-2.142,4.3,2.588,2.588,0,0,1-1.96,1.3,1,1,0,0,1-.912-0.592A3.735,3.735,0,0,1,70.4,90.2a3.028,3.028,0,0,1,.046-0.5c0.03-.182.046-0.289,0.046-0.319a5.112,5.112,0,0,0-1.482-3.735,4.894,4.894,0,0,0-3.624-1.5,6.543,6.543,0,0,0-6.747,6.7,7.471,7.471,0,0,0,2.712,5.9,10.178,10.178,0,0,0,6.906,2.346,11.05,11.05,0,0,0,8.866-4.35q3.578-4.351,7.225-15.739l11.26-35.532a33.071,33.071,0,0,1,3.214-7.4,8.448,8.448,0,0,1,3.716-3.53V30.75H87.766v1.777a6.488,6.488,0,0,1,2.462,2.414,6.949,6.949,0,0,1,.82,3.462,24.782,24.782,0,0,1-.205,3.212,18.583,18.583,0,0,1-.615,2.938l-6.291,20.18-8.57-25.92a12.713,12.713,0,0,1-.479-1.708,7.531,7.531,0,0,1-.16-1.48,2.937,2.937,0,0,1,.524-1.8,4.626,4.626,0,0,1,1.8-1.3V30.75H58v1.777q1.5,0.137,3.009,2.414a33.223,33.223,0,0,1,3.146,6.924L77.965,81.132Zm42.8-45.872a9.927,9.927,0,0,1,3.214-2.187,10.078,10.078,0,0,1,3.9-.729,7.131,7.131,0,0,1,6.952,4.532q2.073,4.533,2.074,15.648,0,9.293-1.915,13.6t-6.108,4.3a6.425,6.425,0,0,1-6.223-4.009q-1.891-4.008-1.892-13.529V41.045Zm3.009,58.035V97.3a3.128,3.128,0,0,1-2.439-1.663q-0.661-1.344-.661-6.674V76.395a13.459,13.459,0,0,0,4.331,2.6,15.339,15.339,0,0,0,5.288.865q8.523,0,13.653-7.607t5.128-20.5q0-10.158-3.829-16.171t-10.211-6.013a15.4,15.4,0,0,0-6.815,1.8,34.012,34.012,0,0,0-7.545,5.353V29.566h-2.234a21.98,21.98,0,0,1-5.834,5.079,24.761,24.761,0,0,1-7.613,2.938v1.959a4.512,4.512,0,0,1,2.986,2.209q0.843,1.617.843,6.628V89.833q0,4.6-.638,5.854a3.208,3.208,0,0,1-2.371,1.617V99.08h17.961Zm44.564-62.2a6.429,6.429,0,0,1,6.017-3.94,7.026,7.026,0,0,1,5.949,2.893q2.165,2.893,2.165,7.995,0,3.1-1.208,4.032t-6.541.934H164.1Q164.1,40.818,166.109,36.877Zm19.077,32.889a15.3,15.3,0,0,1-6.724,1.48q-6.7,0-10.37-4.669t-3.9-13.506H191.91q-0.183-10.7-5.538-17.105a17.452,17.452,0,0,0-14.064-6.4,18.924,18.924,0,0,0-15.02,7.2q-6.086,7.2-6.086,17.993,0,11.206,6.063,18.153a20,20,0,0,0,15.818,6.947,19.127,19.127,0,0,0,10.873-3.348,30.437,30.437,0,0,0,8.912-9.908l-1.778-1.412A19.607,19.607,0,0,1,185.186,69.767Zm31.229,9.407,8.479-30.885,9.254,30.885h7.066L252.7,41.683a26.488,26.488,0,0,1,2.644-6.2,7.208,7.208,0,0,1,3.145-2.961V30.75H245.362v1.777a6.714,6.714,0,0,1,2.006,2.209,5.845,5.845,0,0,1,.684,2.847,13.942,13.942,0,0,1-.16,2.1,12.877,12.877,0,0,1-.524,2.141l-6.519,22.731L233.784,39a18.6,18.6,0,0,1-.433-2,10.776,10.776,0,0,1-.16-1.64,2.817,2.817,0,0,1,.456-1.708,3.952,3.952,0,0,1,1.5-1.116V30.75H217.418v1.777a8.371,8.371,0,0,1,3.169,2.688,11.023,11.023,0,0,1,1.527,4.328l0.182,1.139-6.382,23.87-7.339-26.6a12.245,12.245,0,0,1-.3-1.3,6.739,6.739,0,0,1-.114-1.116,3.735,3.735,0,0,1,.411-1.776,3.3,3.3,0,0,1,1.094-1.23V30.75H191.754v1.777a4.691,4.691,0,0,1,2.438,2.187,24,24,0,0,1,2.3,5.375l12.719,39.085h7.2Zm68.691-41.727q1.8,4.419,1.8,17.219,0,12.755-1.8,17.242t-6.359,4.487q-4.422,0-6.223-4.578t-1.8-17.151q0-12.527,1.8-17.083t6.223-4.555A6.414,6.414,0,0,1,285.106,37.446ZM259.145,65.1a27.136,27.136,0,0,0,5.881,8.883,20.984,20.984,0,0,0,6.382,4.4,18.272,18.272,0,0,0,7.339,1.48,18.653,18.653,0,0,0,7.362-1.48,21.273,21.273,0,0,0,6.5-4.4,27.464,27.464,0,0,0,7.932-19.315q0-11.024-6-18.107a18.963,18.963,0,0,0-15.111-7.084A20.459,20.459,0,0,0,263.59,36.74a25.669,25.669,0,0,0-6.5,17.743A27.733,27.733,0,0,0,259.145,65.1ZM322.67,78.536V76.759a2.924,2.924,0,0,1-2.325-1.549q-0.639-1.275-.638-5.922V9.021H316.7a21.214,21.214,0,0,1-5.812,5.079,25.043,25.043,0,0,1-7.636,2.938V19a4.592,4.592,0,0,1,3.009,2.255q0.82,1.617.82,6.628V69.288q0,4.647-.638,5.922a2.927,2.927,0,0,1-2.325,1.549v1.777H322.67Zm24.192,0V76.759a2.956,2.956,0,0,1-2.371-1.549q-0.639-1.275-.638-5.922V35.533h8.889V30.75h-9.071l-1.049-2.141q-5.743-11.889-5.744-13.438a2.259,2.259,0,0,1,2.325-2.323q1.322,0,2.462,3.052l0.045,0.137a13.523,13.523,0,0,0,2.553,4.624A4.364,4.364,0,0,0,347.5,22a4.312,4.312,0,0,0,3.1-1.344,4.151,4.151,0,0,0,1.367-3.029,7.56,7.56,0,0,0-3.236-6.036,11.94,11.94,0,0,0-7.659-2.574q-5.379,0-8.479,2.984a10.755,10.755,0,0,0-3.1,8.131,28.41,28.41,0,0,0,.433,4.646q0.432,2.6,1.344,5.968h-7.293v4.783h7.385V68.468q0,5.33-.661,6.674a3.018,3.018,0,0,1-2.439,1.617v1.777h18.6Z"/>
-                    </svg>
-
-            </div>
-            <p class="measure">In 2017, the marketing website I designed won the Typewolf’s <a href="https://www.typewolf.com/site-of-the-day/semaphore">site of the day</a> award for good typography. Shortly after, we outsourced all work on marketing pages so I can focus on the product. I didn’t work on the current websites and other public-facing pages.</p>
-        </div>
-    </div>
-
-    <div class=" bt">
-        <h2 class="f4 f3-m normal mb0 pt4">Super</h2>
-        <p class="f7">Senior Product Designer · 2015–16 · <a href="https://hellosuper.com">hellosuper.com</a></p>
-
-        <p class="measure">Super is trying to tackle the problems of homeownership with technology. It had a successful takeoff <a href="https://www.producthunt.com/posts/super-3">on Product Hunt</a> in late 2015. I joined soon after as a senior designer.</p>
-
-        <div class="mv4 mv5-m" style="max-width: 1024px">
-            <img src="{% link /assets/work-super-homepage.png %}" alt="Super homepage" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">This version of the homepage was an experiment with the <em>Jobs to be Done</em>. The key idea of the theory is to think about how context affects user behavior. So reminding them of their context can be a very effective conversion strategy.
-            </p>
-        </div>
-
-        <h3 class="f5 f4-m normal mb3">My Role</h3>
-        <p class="measure pb4-m">As designer number two, I helped with establishing the early design language. My contributions spread from designing web and mobile apps, marketing pages, to building design foundations in the frontend. I developed on top of <a href="https://basscss.com/">BassCSS</a> toolkit, one of the earliest attempts at <em>functional CSS</em>.</p>
-
-        <div class="mv4 mv5-m" style="max-width: 1150px">
-            <img src="{% link /assets/work-super-webapp.png %}" alt="Super web app" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">Super web app, a simple UI to be used as a backup to the mobile app</p>
-        </div>
-
-        <p class="measure mb4 mb5-m">Super is a simple product of limited technical complexity. The focus of my work was entirely on execution and hands-on design. The real challenge was on the business, to figure out how to disrupt and unlock the traditional insurance market.</p>
-
-        <div class="mb4">
-            <div class="flex">
-                <div class="mr4 mr5-m " style="max-width: 320px;">
-                    <img src="{% link /assets/work-super-mobile-1.png %}" alt="Super mobile app homescreen" class="shadow-2 w-100">
-                </div>
-
-                <div class="mr4 mr5-m pt4" style="max-width: 320px;">
-                    <img src="{% link /assets/work-super-mobile-2.png %}" alt="Super mobile app list of jobs" class="shadow-2 w-100">
-                </div>
-
-                <div class="pt5" style="max-width: 320px;">
-                    <img src="{% link /assets/work-super-mobile-3.png %}" alt="Super mobile app one job" class="shadow-2 w-100">
-                </div>
-            </div>
-        </div>
-
-        <p class="measure mb4 mb5-m">Eventually, we parted ways in slightly under a year. It was a sweet experience and great people, but I felt the need to work on more exciting problems.</p>
-
-    </div>
-
-    <div class=" pb4-m bt">
-        <h2 class="f4 f3-m normal mb0 pt4">Active Collab</h2>
-        <p class="f7">Head of Product Design · 2013–15 · <a href="https://activecollab.com">activecollab.com</a></p>
-
-        <p class="measure">Active Collab is a beast project management tool that does everything from tasking and budgeting to time tracking and invoicing. Various teams from <em>Apple</em>, <em>NASA</em>, <em>Microsoft</em>, <em>Nike</em>, <em>White House</em>, and others, use it to organize their projects. I led a 2-year long major product redesign, striving to stay relevant in a wildly competitive market.</p>
-
-        <div class="mv4 mv5-m" style="max-width: 1200px">
-            <img src="{% link /assets/work-ac-invoices.png %}" alt="Active Collab invoices" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3 pr5-ns">Invoicing system is one of the building blocks of the app. It syncs time tracking from tasks and projects, and making it all work seamlessly wasn’t a trivial design challenge.</p>
-        </div>
-
-        <h3 class="f5 f4-m normal mb3">My Role</h3>
-        <p class="measure">I joined specifically to try to reverse the <em>experience rot</em>. At the time, the software had entered the phase of maturity and slight negligence. It resulted in a feature creep and severe challenges for future growth. My role was to untangle the mess.
-        </p>
-
-        <div class="mv4 mv5-m" style="max-width: 720px">
-            <img src="{% link /assets/work-ac-sketch2.jpg %}" alt="Active Collab pen and paper sketching" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">Early exploration and sketching. Pen & paper is a handy companion for thinking but of limited value in a team setting. Nowadays, I prefer to share Whimsical flowcharts, Google docs, or a prototype in a browser.</p>
-        </div>
-
-        <h3 class="f5 f4-m normal mb3">The Challenge</h3>
-        <p class="measure">The difficult task was to make cuts and shut down many underused features. To soften the impact of such destructive decisions, we relied on usage statistics, user feedback, and open communication.</p>
-
-
-        <div class="mv4 mv5-m" style="max-width: 900px">
-            <img src="{% link /assets/work-ac-task.png %}" alt="Active Collab task" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">Task, the central item in the app, is interconnected with all other systems. Even though it might seem like any other to-do app, its “ambition” to communicate with every part of the system made it incredibly complex.</p>
-        </div>
-
-        <div class="mv4 mv5-m nl4" style="max-width: 800px;">
-            <img src="{% link /assets/work-ac-icons.svg %}" alt="Active Collab icons" class="w-100">
-        </div>
-
-        <p class="measure">As early as possible, we started running our real projects on a barely usable product. Using what we were building exposed rough edges and gave us obvious directions on what to improve next. In under two years, we rebuilt the system and established the structural foundations still in use today (2021).</p>
-
-        <div class="mv4 mv5-m" style="max-width: 900px">
-            <img src="{% link /assets/work-ac-calendar.png %}" alt="Active Collab calendar" class="shadow-2 w-100">
-            <p class="f7 measure-wide mt3">The calendar is <em>just</em> another view. It behaves like a regular calendar that interacts with everything with a due date, like tasks or invoices.</p>
-        </div>
-
-        <p class="measure">The redesign proved a great success, and it showed in the business metrics immediately after the launch. The revenue from the cloud service doubled in the following year and continued to progress at a steady pace. Part of the credit goes to the redesign that sparked and re-energized the entire company.</p>
-
-    </div>
-
-    <div class=" pt3 pt4-m bt">
-        <p class="f7">Thanks for coming down this far! ✻ <button id="scrollToTopBtn" class="br-pill ba bg-white sans-serif">Go back to top</button></p>
     </div>
 
     <script>
-        var scrollToTopBtn = document.getElementById("scrollToTopBtn")
-        var rootElement = document.documentElement
-        function scrollToTop() {
-        // Scroll to top logic
-        rootElement.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
+        // Smooth scroll to anchor
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add active links on scroll
+        const sections = document.querySelectorAll("section[id]");
+        window.addEventListener("scroll", navHighlighter);
+
+        function navHighlighter() {
+
+        let scrollY = window.pageYOffset;
+
+        sections.forEach(current => {
+            const sectionHeight = current.offsetHeight;
+            const sectionTop = current.offsetTop - 50;
+            sectionId = current.getAttribute("id");
+
+            if (
+            scrollY > sectionTop &&
+            scrollY <= sectionTop + sectionHeight
+            ){
+            document.querySelector("#navigation a[href*=" + sectionId + "]").classList.add("active");
+            } else {
+            document.querySelector("#navigation a[href*=" + sectionId + "]").classList.remove("active");
+            }
+        });
         }
-        scrollToTopBtn.addEventListener("click", scrollToTop)
+
     </script>
-
-
-
 
 {%- include footer.html -%}
