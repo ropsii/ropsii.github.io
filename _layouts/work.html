@@ -54,11 +54,20 @@
                 text-decoration: none;
             }
 
+            #navigation a:focus {
+                outline: none;
+            }
+
             #navigation a::after {
                 content:"";
                 display: inline-block;
                 width: 20px;
                 margin-left: 6px;
+            }
+
+            #navigation a.active {
+                background-color: #fff9ae;
+                box-shadow: 0 0 4px 2px #fff9ae;
             }
 
             #navigation a.active::after {
