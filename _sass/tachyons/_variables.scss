@@ -1,7 +1,7 @@
 
 // Converted Variables
 
-$sans-serif: "source sans pro", sans-serif;
+$sans-serif: "public sans", sans-serif;
 $serif: "source serif pro", georgia, serif !default;
 $code: Menlo, Consolas, monospace !default;
 $font-size-headline: 4rem !default;
@@ -106,7 +106,7 @@ $white-025: rgba(255,255,255,.025) !default;
 $white-0125: rgba(255,255,255,.0125) !default;
 $dark-red: #94001f !default;
 $red: #b50026 !default;
-$light-red: #ff725c !default;
+$light-red: #ec6a6a !default;
 $orange: #ff6300 !default;
 $gold: #ffb700 !default;
 $yellow: #ffe34e !default;
@@ -127,11 +127,11 @@ $light-blue: #96ccff !default;
 $lightest-blue: #cdecff !default;
 $washed-blue: #f6fffe !default;
 $washed-green: #e8fdf5 !default;
-$washed-yellow: #fffceb !default;
+$washed-yellow: #fffef6 !default;
 $washed-red: #ffe6e4 !default;
 
 $link-color: $red;
-$background-color: $washed-red;
+$background-color: $washed-yellow;
 
 // Custom Media Query Variables
 

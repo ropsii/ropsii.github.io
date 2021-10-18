@@ -15,7 +15,7 @@
 
 
 body {
-    font-family: $serif;
+    font-family: $sans-serif;
     line-height: $line-height-copy;
     font-size: $font-size-6;
     color: $near-black;
@@ -29,10 +29,12 @@ body {
 }
 
 a {
-    color: $link-color;
+    color: $near-black;
     text-underline-offset: 1px;
     transition: background-color .1s;
     border-radius: 5px;
+    text-decoration-color: $light-red;
+    text-decoration-thickness: 2px;
 }
 
 a:hover {
@@ -41,7 +43,7 @@ a:hover {
     box-shadow: 0 0 4px 2px $light-yellow;
 }
 a:focus {
-    outline: 2px dotted $link-color;
+    outline: 2px dotted;
     z-index: 1;
 }
 
