@@ -12,7 +12,7 @@ In engineering driven organizations design is slightly undervalued almost by nat
 
 Having worked in this environment for most of my career, it made me appreciate engineers who care to engage with design, that I could team up with to get the most out of design under the specific circumstances.
 
-Most of the developers, however, are in a different group. They are soldiers. They conform to the very distinct lines of responsibility: Designers design, and following the specs developers develop. Writing software is already intellectually demanding enough, so keeping these two activities distinctly apart seems like a reasonable thing to do. And many companies, depending on their size, simply must become more _procedural_ as they grow.
+Most of the developers, however, are in a different group. They are soldiers. They conform to the very distinct lines of responsibility: Designers design, and following the specs developers develop. Writing software is already intellectually demanding enough, so keeping these two activities distinctly apart seems like a reasonable thing to do. And many companies, depending on their size, simply must become more procedural as they grow.
 
 I used to instinctively believe in that division of labour. When I was younger, I’d secretly roll my eyes at comments coming from non-designers because they, of course, should never lecture designers about design. But soon I’d begin facing problems where I’d ran out of capacity when challenged with too much complexity. And as I would almost instantly learn, the feedback I was getting was routinely much more clever than anything I could come up with on my own.
 
