@@ -36,6 +36,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      robots: "noindex, nofollow"
+
 # Default port
 port: 5000
 
